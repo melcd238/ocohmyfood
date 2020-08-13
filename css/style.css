@@ -217,11 +217,54 @@ footer {
   margin: auto;
   margin-top: 80px;
   margin-bottom: 80px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
   background-color: #fcdfdb;
-  font-family: "Loved by the King";
-  border-radius: 10px; }
+  font-family: "Loved by the King"; }
+  @media only screen and (max-width: 520px) {
+    .menu1 {
+      width: 90%; } }
 
 i {
   background: linear-gradient(to right, #FF6666 60%, #FF9966);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+.menu2 {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
+  background-color: #fff5fe;
+  font-family: "Amita"; }
+  @media only screen and (max-width: 520px) {
+    .menu2 {
+      width: 90%; } }
+
+.menu3 {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
+  background-color: #f9f9f9;
+  font-family: "Galada"; }
+  @media only screen and (max-width: 520px) {
+    .menu3 {
+      width: 90%; } }
+
+.menu4 {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
+  background-color: #fdfffd;
+  font-family: "Kaushan Script"; }
+  @media only screen and (max-width: 520px) {
+    .menu4 {
+      width: 90%; } }

@@ -205,14 +205,37 @@ footer{
 }
 /*mise en place des menus*/
 .menu1{
-    width: 80%;
-    margin: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    @include menu-style-general;
     background-color: map-get($color, color-note );
     font-family: map-get($font-family,family-note );
-    border-radius: 10px;
+    @include responsive(small){
+        width: 90%;
+    }
 }
 i{
     @include gradient-note;
+}
+.menu2{
+    @include menu-style-general;
+    background-color: map-get($color, color-chic );
+    font-family:map-get($font-family, family-chic) ;
+    @include responsive(small){
+        width: 90%;
+    } 
+}
+.menu3{
+    @include menu-style-general;
+    background-color:map-get($color,color-delice);
+    font-family:map-get($font-family,family-delice );
+    @include responsive(small){
+        width: 90%;
+    }
+}
+.menu4{
+    @include menu-style-general;
+    background-color: map-get($color, color-palette );
+    font-family:map-get($font-family,family-palette);
+    @include responsive(small){
+        width: 90%;
+    } 
 }
