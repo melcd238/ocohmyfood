@@ -1,5 +1,5 @@
 
-$breakpoint-small:520px; 
+$breakpoint-small:599px; 
 $breakpoint-medium:1224px;
 
 
@@ -10,7 +10,7 @@ $breakpoint-medium:1224px;
         }
     }
     @else if $breakpoint == medium {
-        @media only screen and (min-width:521px) and(max-width:$breakpoint-medium){
+        @media only screen and (min-width:600px) and(max-width:$breakpoint-medium){
             @content;
         }
     }

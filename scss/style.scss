@@ -181,12 +181,17 @@ footer{
       border: solid 1px #579c87;
       border-radius: 10px;
       color: #fdcb46;
+      font-family: map-get($font-family , family-ohmyfood );
       width: 12rem;
       height: 2.5rem;
       text-decoration: none;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      @include responsive(small){
+          font-size: 0.9rem;
+      }
+    }
       
        .point{
     font-size: 2.5rem;
@@ -204,37 +209,158 @@ footer{
     animation: pointmove 0.6s 0.4s infinite alternate;
 }
 /*mise en place des menus*/
+ul{
+  
+    padding-left: 0;
+    
+}
+
+.recipes{
+    margin: 20px 80px;
+      
+    @include responsive(small){
+        margin: 5px 20px;
+        text-align: center;
+    }
+}
+
+
+/*menu la note enchantée*/
 .menu1{
     @include menu-style-general;
     background-color: map-get($color, color-note );
     font-family: map-get($font-family,family-note );
+    line-height: 1rem;
+    display: flex;
+    flex-direction: column;
+             h2, h3{
+                color: #330000;
+             }
+             
+          .dish{
+             font-size: 1.1rem;
+             color: #999999;
+             padding-left: 10px;
+             margin-top: 5px;
+             width: 80%;
+         }
+         .price{
+             font-weight: bolder;
+             color: #330000;
+             margin-top: 6px;
+             width: 20%;
+         }
+          .finmenu1{
+             text-align: center;
+         }
     @include responsive(small){
         width: 90%;
+        
+        .dish{
+            font-size: 1rem;
+        }
+        ul li {
+           display: flex; 
+           flex-direction: column;
+           align-items: center;
+           
+           }
+         
+
     }
 }
 i{
     @include gradient-note;
 }
+
+
+/*menu Le chic à la française*/
+
 .menu2{
     @include menu-style-general;
     background-color: map-get($color, color-chic );
     font-family:map-get($font-family, family-chic) ;
+                   h2{
+        background: linear-gradient(to right, #cc6600, #9966ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.8rem;}
+                   .menu2_entree{
+                    color:#cc6600 ;
+                   }
+                   .menu2_plat{
+                    color:#996699; 
+                   }
+                   .menu2_dessert{
+                    color:#6633cc;  
+                   }
+                   .dish{
+                    font-size: 0.9rem;
+                    padding-left: 10px;
+                    width: 80%;
+                }
+                .price{
+                    font-weight: bolder;
+                    width: 20%;
+                }
     @include responsive(small){
         width: 90%;
+        .dish{
+            font-size: 0.7rem;
+            margin-top: 2px;
+        }
+        .price{
+            margin-top: 0;
+        }
+        ul li {
+           display: flex; 
+           flex-direction: column;
+           align-items: center;
+           
+           }
     } 
 }
+
+
 .menu3{
     @include menu-style-general;
     background-color:map-get($color,color-delice);
     font-family:map-get($font-family,family-delice );
+    h2{
+        background: linear-gradient(to right, #0033cc, #0099ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+        font-weight: lighter;}
+        .dish{
+            font-size: 0.9rem;
+            padding-left: 10px;
+            width: 80%;
+        }
+        .price{
+            font-weight: bolder;
+            width: 20%;
+        }    
+
     @include responsive(small){
         width: 90%;
-    }
-}
+        .price{
+            margin-top: 0;
+        }
+        ul li {
+           display: flex; 
+           flex-direction: column;
+           align-items: center;
+           }
+        }
+    
+    } 
+         
 .menu4{
     @include menu-style-general;
     background-color: map-get($color, color-palette );
     font-family:map-get($font-family,family-palette);
+
     @include responsive(small){
         width: 90%;
     } 
