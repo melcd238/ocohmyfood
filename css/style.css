@@ -47,6 +47,10 @@ body {
   border: 2px solid #579c87;
   display: flex;
   flex-direction: column; }
+  @media only screen and (max-width: 520px) {
+    .container {
+      max-width: 100%;
+      border: none; } }
 
 /* Mise en place du Header*/
 header {
@@ -61,6 +65,9 @@ header {
   header h1 {
     text-align: center;
     color: #fdcb46; }
+  @media only screen and (max-width: 520px) {
+    header {
+      width: 100%; } }
 
 /* mise en page du content de l'index*/
 .content_1 {
@@ -71,13 +78,10 @@ header {
   margin: auto;
   padding-top: 40px;
   padding-bottom: 40px; }
-  @media only screen and (max-width: 599px) {
+  @media only screen and (max-width: 520px) {
     .content_1 {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-top: 10px; } }
+      flex-direction: column; } }
 
 .menu {
   text-align: center;
@@ -161,6 +165,9 @@ footer {
       animation-duration: 0.90s;
       animation-fill-mode: both;
       /* indique comment l'annimation doit appliquer les styles à sa cible avant et après son exécution*/ }
+  @media only screen and (max-width: 520px) {
+    footer {
+      width: 100%; } }
 
 /*mise en page du bouton prochainement*/
 .move {
