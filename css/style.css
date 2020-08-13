@@ -64,7 +64,9 @@ header {
   align-items: center; }
   header h1 {
     text-align: center;
-    color: #fdcb46; }
+    color: #fdcb46;
+    font-family: "Open Sans";
+    font-weight: bolder; }
   @media only screen and (max-width: 520px) {
     header {
       width: 100%; } }
@@ -80,8 +82,9 @@ header {
   padding-bottom: 40px; }
   @media only screen and (max-width: 520px) {
     .content_1 {
-      display: flex;
-      flex-direction: column; } }
+      flex-direction: column;
+      padding-top: 30px;
+      padding-bottom: 30px; } }
 
 .menu {
   text-align: center;
@@ -115,7 +118,7 @@ header {
       -webkit-text-fill-color: transparent; }
   .menu_chic {
     background-color: #fff5fe;
-    font-family: "Faustina"; }
+    font-family: "Amita"; }
     .menu_chic--lien {
       background: linear-gradient(to right, #cc6600, #9966ff);
       -webkit-background-clip: text;
@@ -159,7 +162,12 @@ footer {
     margin-left: 3%;
     margin-right: 3%;
     color: #fdcb46;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
     text-decoration: none; }
+    @media only screen and (max-width: 520px) {
+      footer a {
+        font-size: 0.9rem; } }
     footer a:hover {
       animation-name: earthquake;
       animation-duration: 0.90s;

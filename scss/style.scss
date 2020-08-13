@@ -34,6 +34,8 @@ header{
      h1{
         text-align: center;
         color: map-get($color,color-text-header-footer );
+        font-family: map-get($font-family , family-ohmyfood );
+        font-weight: bolder;
     }
     @include responsive(small){
         width: 100%;
@@ -50,8 +52,9 @@ header{
     padding-top: 40px;
     padding-bottom: 40px;
     @include responsive(small){
-        display: flex;
         flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
      
 }
@@ -147,7 +150,12 @@ footer{
         margin-left: 3%;
         margin-right: 3%;
         color: map-get($color,color-text-header-footer );
+        font-family: map-get($font-family , family-ohmyfood );
+        font-size: 1.2rem;
         text-decoration: none;
+        @include responsive(small){
+            font-size: 0.9rem;
+        }
             &:hover {
             animation-name: earthquake ;
             animation-duration: 0.90s;
@@ -155,7 +163,9 @@ footer{
              }
             }
      @include responsive(small) {
-        width: 100%; } 
+        width: 100%;
+       
+     } 
     
     
 }
