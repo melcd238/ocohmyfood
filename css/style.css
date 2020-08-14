@@ -47,6 +47,10 @@ body {
   border: 2px solid #579c87;
   display: flex;
   flex-direction: column; }
+  @media only screen and (min-width: 600px) and (max-width: 850px) {
+    .container {
+      max-width: 100%;
+      border: none; } }
   @media only screen and (max-width: 599px) {
     .container {
       max-width: 100%;
@@ -67,6 +71,9 @@ header {
     color: #fdcb46;
     font-family: "Open Sans";
     font-weight: bolder; }
+  @media only screen and (min-width: 600px) and (max-width: 850px) {
+    header {
+      width: 100%; } }
   @media only screen and (max-width: 599px) {
     header {
       width: 100%; } }
@@ -173,6 +180,9 @@ footer {
       animation-duration: 0.90s;
       animation-fill-mode: both;
       /* indique comment l'annimation doit appliquer les styles à sa cible avant et après son exécution*/ }
+  @media only screen and (min-width: 600px) and (max-width: 850px) {
+    footer {
+      width: 100%; } }
   @media only screen and (max-width: 599px) {
     footer {
       width: 100%; } }
@@ -217,10 +227,11 @@ footer {
 
 /*mise en place des menus*/
 ul {
+  margin-left: 0;
   padding-left: 0; }
 
 .recipes {
-  margin: 20px 80px; }
+  margin: 20px 50px; }
   @media only screen and (max-width: 599px) {
     .recipes {
       margin: 5px 20px;
@@ -228,15 +239,13 @@ ul {
 
 /*menu la note enchantée*/
 .menu1 {
-  width: 60%;
+  max-width: 900px;
   margin: auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
   background-color: #fcdfdb;
   font-family: "Loved by the King";
-  line-height: 1rem;
+  line-height: 1.1;
   display: flex;
   flex-direction: column; }
   .menu1 ul {
@@ -250,21 +259,31 @@ ul {
   .menu1 h2, .menu1 h3 {
     color: #330000; }
   .menu1 .dish {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #999999;
-    padding-left: 10px;
     margin-top: 5px;
-    width: 80%; }
+    width: 90%;
+    font-weight: 500; }
   .menu1 .price {
     font-weight: bolder;
     color: #330000;
-    margin-top: 6px;
-    width: 20%; }
+    margin-top: 4px;
+    width: 10%;
+    text-align: center; }
   .menu1 .finmenu1 {
     text-align: center; }
+  @media only screen and (min-width: 600px) and (max-width: 850px) {
+    .menu1 {
+      max-width: 600px; }
+      .menu1 .recipes {
+        margin: 10px 40px; }
+      .menu1 .dish {
+        font-size: 1rem; } }
   @media only screen and (max-width: 599px) {
     .menu1 {
-      width: 90%; }
+      max-width: 320px;
+      margin-top: 70px;
+      margin-bottom: 70px; }
       .menu1 .dish {
         font-size: 1rem; }
       .menu1 ul li {
@@ -279,10 +298,8 @@ i {
 
 /*menu Le chic à la française*/
 .menu2 {
-  width: 60%;
+  max-width: 900px;
   margin: auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
   background-color: #fff5fe;
@@ -326,11 +343,10 @@ i {
         flex-direction: column;
         align-items: center; } }
 
+/* Menu Delice*/
 .menu3 {
-  width: 60%;
+  max-width: 900px;
   margin: auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
   background-color: #f9f9f9;
@@ -366,11 +382,10 @@ i {
         flex-direction: column;
         align-items: center; } }
 
+/* Menu Palette*/
 .menu4 {
-  width: 60%;
+  max-width: 900px;
   margin: auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
   background-color: #fdfffd;

@@ -16,7 +16,11 @@ body{
         min-height: 100vh;
         border: 2px solid map-get($color, backgroudcolor-header-footer );
         display: flex;
-        flex-direction: column;  
+        flex-direction: column;
+    @include responsive(medium){
+        max-width: 100%;
+        border: none;
+    }     
 
     @include responsive(small){
         max-width: 100%;
@@ -36,6 +40,9 @@ header{
         color: map-get($color,color-text-header-footer );
         font-family: map-get($font-family , family-ohmyfood );
         font-weight: bolder;
+    }
+    @include responsive(medium){
+        width: 100%;
     }
     @include responsive(small){
         width: 100%;
@@ -162,6 +169,9 @@ footer{
             animation-fill-mode: both; /* indique comment l'annimation doit appliquer les styles à sa cible avant et après son exécution*/
              }
             }
+     @include responsive(medium){
+                width: 100%;
+            }       
      @include responsive(small) {
         width: 100%;
        
@@ -210,13 +220,12 @@ footer{
 }
 /*mise en place des menus*/
 ul{
-  
+    margin-left: 0;
     padding-left: 0;
-    
 }
 
 .recipes{
-    margin: 20px 80px;
+    margin: 20px 50px;
       
     @include responsive(small){
         margin: 5px 20px;
@@ -230,7 +239,7 @@ ul{
     @include menu-style-general;
     background-color: map-get($color, color-note );
     font-family: map-get($font-family,family-note );
-    line-height: 1rem;
+    line-height: 1.1;
     display: flex;
     flex-direction: column;
              h2, h3{
@@ -238,23 +247,38 @@ ul{
              }
              
           .dish{
-             font-size: 1.1rem;
+             font-size: 1rem;
              color: #999999;
-             padding-left: 10px;
+             
              margin-top: 5px;
-             width: 80%;
+             width: 90%;
+             font-weight: 500;
          }
          .price{
              font-weight: bolder;
              color: #330000;
-             margin-top: 6px;
-             width: 20%;
+             margin-top: 4px;
+             width: 10%;
+             text-align: center;
          }
           .finmenu1{
              text-align: center;
          }
+    @include responsive(medium) {
+        max-width: 600px;
+        
+       
+       .recipes{
+           margin:10px 40px;
+       }
+       .dish{
+           font-size: 1rem;
+       }
+    }    
     @include responsive(small){
-        width: 90%;
+        max-width: 320px;
+        margin-top: 70px;
+        margin-bottom: 70px;
         
         .dish{
             font-size: 1rem;
@@ -265,7 +289,7 @@ ul{
            align-items: center;
            
            }
-         
+        
 
     }
 }
@@ -321,6 +345,7 @@ i{
     } 
 }
 
+/* Menu Delice*/
 
 .menu3{
     @include menu-style-general;
@@ -355,7 +380,8 @@ i{
         }
     
     } 
-         
+ 
+/* Menu Palette*/    
 .menu4{
     @include menu-style-general;
     background-color: map-get($color, color-palette );
