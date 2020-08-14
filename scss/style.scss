@@ -266,7 +266,8 @@ ul{
          }
     @include responsive(medium) {
         max-width: 600px;
-        
+        margin-top: 80px;
+        margin-bottom: 80px;
        
        .recipes{
            margin:10px 40px;
@@ -276,7 +277,7 @@ ul{
        }
     }    
     @include responsive(small){
-        max-width: 320px;
+        max-width: 340px;
         margin-top: 70px;
         margin-bottom: 70px;
         
@@ -311,10 +312,7 @@ ul{
             right:  5px;
             bottom: 10px;
         }
-       
-       
-
-    }
+        }
 }
 i{
     @include gradient-note;
@@ -328,6 +326,7 @@ i{
     @include menu-style-general;
     background-color: map-get($color, color-chic );
     font-family:map-get($font-family, family-chic) ;
+    line-height: 1.1;
                    h2{
         background: linear-gradient(to right, #cc6600, #9966ff);
         -webkit-background-clip: text;
@@ -351,10 +350,28 @@ i{
                     font-weight: bolder;
                     width: 20%;
                 }
+    @include responsive(medium){
+        max-width: 600px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+       
+       .recipes{
+           margin:30px 40px;
+       }
+       .dish{
+           font-size: 1rem;
+       }
+    }
+               
     @include responsive(small){
-        width: 90%;
+        max-width: 340px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        h2{
+            font-size: 1.5rem;
+        }
         .dish{
-            font-size: 0.7rem;
+            font-size: 0.8rem;
             margin-top: 2px;
         }
         .price{
@@ -375,6 +392,7 @@ i{
     @include menu-style-general;
     background-color:map-get($color,color-delice);
     font-family:map-get($font-family,family-delice );
+    line-height:1.3 ;
     h2{
         background: linear-gradient(to right, #0033cc, #0099ff);
         -webkit-background-clip: text;
@@ -389,10 +407,27 @@ i{
         .price{
             font-weight: bolder;
             width: 20%;
-        }    
+        }
+        @include responsive(medium){
+            max-width: 600px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+           
+           .recipes{
+               margin:30px 40px;
+           }
+           .dish{
+               font-size: 0.9rem;
+           }
+        }        
 
     @include responsive(small){
-        width: 90%;
+        width: 340px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        .dish{
+            font-size: 0.8rem;
+        }
         .price{
             margin-top: 0;
         }
@@ -401,6 +436,28 @@ i{
            flex-direction: column;
            align-items: center;
            }
+           h3{
+            font-size: 1rem;
+            position: relative;
+        }
+        h3::before{
+            content: "";
+            background: linear-gradient(to right, #0099ff, #0033cc);
+            width: 60px;
+            height: 2px;
+            position: absolute;
+            left: 5px;
+            bottom: 10px;
+        }
+        h3::after{
+            content: "";
+            background: linear-gradient(to right, #0033cc, #0099ff);
+            width: 60px;
+            height: 2px;
+            position: absolute;
+            right:  5px;
+            bottom: 10px;
+        }   
         }
     
     } 
