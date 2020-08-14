@@ -79,7 +79,7 @@ header {
       width: 100%; } }
 
 /* mise en page du content de l'index*/
-.content_1 {
+.contenant {
   display: flex;
   flex-flow: row wrap;
   max-width: 599px;
@@ -88,7 +88,7 @@ header {
   padding-top: 40px;
   padding-bottom: 40px; }
   @media only screen and (max-width: 599px) {
-    .content_1 {
+    .contenant {
       flex-direction: column;
       padding-top: 30px;
       padding-bottom: 30px; } }
@@ -289,7 +289,26 @@ ul {
       .menu1 ul li {
         display: flex;
         flex-direction: column;
-        align-items: center; } }
+        align-items: center; }
+      .menu1 h3 {
+        font-size: 1.3rem;
+        position: relative; }
+      .menu1 h3::before {
+        content: "";
+        background: linear-gradient(to right, #FF9966, #FF6666 60%);
+        width: 80px;
+        height: 2px;
+        position: absolute;
+        left: 5px;
+        bottom: 10px; }
+      .menu1 h3::after {
+        content: "";
+        background: linear-gradient(to right, #FF6666 60%, #FF9966);
+        width: 80px;
+        height: 2px;
+        position: absolute;
+        right: 5px;
+        bottom: 10px; } }
 
 i {
   background: linear-gradient(to right, #FF6666 60%, #FF9966);

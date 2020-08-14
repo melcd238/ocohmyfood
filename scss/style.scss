@@ -50,7 +50,7 @@ header{
 }
 /* mise en page du content de l'index*/
 
-.content_1{
+.contenant{
     display: flex;
     flex-flow: row wrap;
     max-width: 599px;
@@ -289,13 +289,37 @@ ul{
            align-items: center;
            
            }
-        
+        h3{
+            font-size: 1.3rem;
+            position: relative;
+        }
+        h3::before{
+            content: "";
+            background: linear-gradient(to right,#FF9966 ,#FF6666 60%) ;
+            width: 80px;
+            height: 2px;
+            position: absolute;
+            left: 5px;
+            bottom: 10px;
+        }
+        h3::after{
+            content: "";
+            background: linear-gradient(to right, #FF6666 60%, #FF9966) ;
+            width: 80px;
+            height: 2px;
+            position: absolute;
+            right:  5px;
+            bottom: 10px;
+        }
+       
+       
 
     }
 }
 i{
     @include gradient-note;
 }
+
 
 
 /*menu Le chic à la française*/
