@@ -277,7 +277,7 @@ ul{
        }
     }    
     @include responsive(small){
-        max-width: 340px;
+        max-width: 360px;
         margin-top: 70px;
         margin-bottom: 70px;
         
@@ -364,7 +364,7 @@ i{
     }
                
     @include responsive(small){
-        max-width: 340px;
+        max-width: 360px;
         margin-top: 70px;
         margin-bottom: 70px;
         h2{
@@ -422,7 +422,7 @@ i{
         }        
 
     @include responsive(small){
-        width: 340px;
+        max-width: 360px;
         margin-top: 70px;
         margin-bottom: 70px;
         .dish{
@@ -467,8 +467,68 @@ i{
     @include menu-style-general;
     background-color: map-get($color, color-palette );
     font-family:map-get($font-family,family-palette);
+    line-height: 1.1;
+        h2{
+            background: linear-gradient(to right, #339933, #ccff66);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+        }
 
-    @include responsive(small){
-        width: 90%;
-    } 
+
+    @include responsive(medium){
+        max-width: 600px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+       
+       .recipes{
+           margin:30px 40px;
+       }
+       .dish{
+           font-size: 0.9rem;
+       }
+    }        
+
+      @include responsive(small){
+         max-width: 360px;
+         margin-top: 70px;
+         margin-bottom: 70px;
+            h2{
+                font-size: 1.8rem;
+            }
+            
+            .dish{
+           font-size: 0.7rem;
+    }
+            .price{
+            margin-top: 0;
+    }
+            ul li {
+            display: flex; 
+            flex-direction: column;
+             align-items: center;
+       }
+       h3{
+        font-size: 1.2rem;
+        position: relative;
+    }
+    h3::before{
+        content: "";
+        background: linear-gradient(to right, #ccff66, #339933);
+        width: 60px;
+        height: 2px;
+        position: absolute;
+        left: 5px;
+        bottom: 10px;
+    }
+    h3::after{
+        content: "";
+        background: linear-gradient(to right, #339933, #ccff66);
+        width: 60px;
+        height: 2px;
+        position: absolute;
+        right:  5px;
+        bottom: 10px;
+    }   
+    }
+    
 }
