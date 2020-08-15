@@ -482,7 +482,30 @@ i{
         }
         @include responsive(large) {
             @include traitsoush3($background-delice);
-            
+            .traitdecoratif3_1L{
+                background-image: url(/img/traitmenu3_1L.svg);
+                @include traitdecorationmenu;}
+            .traitdecoratif3_1R{
+                    background-image: url(/img/traitmenu3_1R.svg);
+                    @include traitdecorationmenu;
+                }
+                .traitdecoratif3_2L{
+                    background-image: url(/img/traitmenu3_2L.svg);
+                    @include traitdecorationmenu;
+                } 
+                .traitdecoratif3_2R{
+                    background-image: url(/img/traitmenu3_2R.svg);
+                    @include traitdecorationmenu;
+                } 
+                .traitdecoratif3_3L{
+                    background-image: url(/img/traitmenu3_3L.svg);
+                    @include traitdecorationmenu;
+                }
+                .traitdecoratif3_3R{
+                    background-image: url(/img/traitmenu3_3R.svg);
+                    @include traitdecorationmenu;
+                }  
+                
             }    
                  
         
@@ -491,6 +514,29 @@ i{
             margin-top: 80px;
             margin-bottom: 80px;
             @include traitsoush3($background-delice);
+            .traitdecoratif3_1L{
+                background-image: url(/img/traitmenu3_1L.svg);
+                @include traitdecorationmenu;}
+            .traitdecoratif3_1R{
+                    background-image: url(/img/traitmenu3_1R.svg);
+                    @include traitdecorationmenu;
+                }
+                .traitdecoratif3_2L{
+                    background-image: url(/img/traitmenu3_2L.svg);
+                    @include traitdecorationmenu;
+                } 
+                .traitdecoratif3_2R{
+                    background-image: url(/img/traitmenu3_2R.svg);
+                    @include traitdecorationmenu;
+                } 
+                .traitdecoratif3_3L{
+                    background-image: url(/img/traitmenu3_3L.svg);
+                    @include traitdecorationmenu;
+                }
+                .traitdecoratif3_3R{
+                    background-image: url(/img/traitmenu3_3R.svg);
+                    @include traitdecorationmenu;
+                }  
             
            
            .recipes{
