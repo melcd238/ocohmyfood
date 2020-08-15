@@ -482,13 +482,16 @@ i{
         }
         @include responsive(large) {
             @include traitsoush3($background-delice);
-      }           
+            
+            }    
+                 
         
         @include responsive(medium){
             max-width: 600px;
             margin-top: 80px;
             margin-bottom: 80px;
             @include traitsoush3($background-delice);
+            
            
            .recipes{
                margin:30px 40px;
@@ -563,6 +566,13 @@ i{
         }
         @include responsive(large) {
             @include traitsoush3($background-palette);
+            .traitdecoratif4{
+                background-image: url(/img/traitmenu4.svg);
+                @include traitdecorationmenu;
+                &_rotation{
+                    transform: rotate(180deg);
+                }
+            }    
       }               
 
 
@@ -571,6 +581,13 @@ i{
         margin-top: 80px;
         margin-bottom: 80px;
         @include traitsoush3($background-palette);
+        .traitdecoratif4{
+            background-image: url(/img/traitmenu4.svg);
+            @include traitdecorationmenu;
+            &_rotation{
+                transform: rotate(180deg);
+            }
+        }    
        .recipes{
            margin:30px 40px;
        }
