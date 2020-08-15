@@ -14,5 +14,11 @@ $breakpoint-medium:850px;
             @content;
         }
     }
+    @else if $breakpoint == large {
+        @media only screen and (min-width:851px){
+            @content;
+        }
+    }
+   
     
 }

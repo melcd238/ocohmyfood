@@ -226,10 +226,6 @@ footer {
   animation: pointmove 0.6s 0.4s infinite alternate; }
 
 /*mise en place des menus*/
-ul {
-  margin-left: 0;
-  padding-left: 0; }
-
 .recipes {
   margin: 20px 50px; }
   @media only screen and (max-width: 599px) {
@@ -251,7 +247,9 @@ ul {
   display: flex;
   flex-direction: column; }
   .menu1 ul {
-    list-style: none; }
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0; }
   .menu1 li {
     display: flex; }
   .menu1 h3 {
@@ -274,6 +272,24 @@ ul {
     text-align: center; }
   .menu1 .finmenu1 {
     text-align: center; }
+  @media only screen and (min-width: 851px) {
+    .menu1 .trait {
+      width: 100%;
+      text-align: center; }
+    .menu1 h3 {
+      position: relative;
+      display: inline; }
+    .menu1 h3::after {
+      content: "";
+      background: linear-gradient(to right, #FF6666 60%, #FF9966);
+      position: absolute;
+      bottom: 2px;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      transition: 0.25s cubic-bezier(0.72, -0.1, 0.19, 0.92); }
+    .menu1 h3:hover:after {
+      width: 100%; } }
   @media only screen and (min-width: 600px) and (max-width: 850px) {
     .menu1 {
       max-width: 600px;
@@ -348,7 +364,9 @@ i {
   font-family: "Amita";
   line-height: 1.1; }
   .menu2 ul {
-    list-style: none; }
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0; }
   .menu2 li {
     display: flex; }
   .menu2 h3 {
@@ -373,6 +391,24 @@ i {
   .menu2 .price {
     font-weight: bolder;
     width: 10%; }
+  @media only screen and (min-width: 851px) {
+    .menu2 .trait {
+      width: 100%;
+      text-align: center; }
+    .menu2 h3 {
+      position: relative;
+      display: inline; }
+    .menu2 h3::after {
+      content: "";
+      background: linear-gradient(to right, #cc6600, #9966ff);
+      position: absolute;
+      bottom: 2px;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      transition: 0.25s cubic-bezier(0.72, -0.1, 0.19, 0.92); }
+    .menu2 h3:hover:after {
+      width: 100%; } }
   @media only screen and (min-width: 600px) and (max-width: 850px) {
     .menu2 {
       max-width: 600px;
@@ -428,7 +464,9 @@ i {
   font-family: "Galada";
   line-height: 1.3; }
   .menu3 ul {
-    list-style: none; }
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0; }
   .menu3 li {
     display: flex; }
   .menu3 h3 {
@@ -448,11 +486,46 @@ i {
   .menu3 .price {
     font-weight: bolder;
     width: 10%; }
+  @media only screen and (min-width: 851px) {
+    .menu3 .trait {
+      width: 100%;
+      text-align: center; }
+    .menu3 h3 {
+      position: relative;
+      display: inline; }
+    .menu3 h3::after {
+      content: "";
+      background: linear-gradient(to right, #0033cc, #0099ff);
+      position: absolute;
+      bottom: 2px;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      transition: 0.25s cubic-bezier(0.72, -0.1, 0.19, 0.92); }
+    .menu3 h3:hover:after {
+      width: 100%; } }
   @media only screen and (min-width: 600px) and (max-width: 850px) {
     .menu3 {
       max-width: 600px;
       margin-top: 80px;
       margin-bottom: 80px; }
+      .menu3 .trait {
+        width: 100%;
+        text-align: center; }
+      .menu3 h3 {
+        position: relative;
+        display: inline; }
+      .menu3 h3::after {
+        content: "";
+        background: linear-gradient(to right, #0033cc, #0099ff);
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        width: 0%;
+        height: 3px;
+        transition: 0.25s cubic-bezier(0.72, -0.1, 0.19, 0.92); }
+      .menu3 h3:hover:after {
+        width: 100%; }
       .menu3 .recipes {
         margin: 30px 40px; }
       .menu3 .dish {
@@ -502,7 +575,9 @@ i {
   font-family: "Kaushan Script";
   line-height: 1.1; }
   .menu4 ul {
-    list-style: none; }
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0; }
   .menu4 li {
     display: flex; }
   .menu4 h3 {
@@ -521,11 +596,46 @@ i {
   .menu4 .price {
     font-weight: bolder;
     width: 10%; }
+  @media only screen and (min-width: 851px) {
+    .menu4 .trait {
+      width: 100%;
+      text-align: center; }
+    .menu4 h3 {
+      position: relative;
+      display: inline; }
+    .menu4 h3::after {
+      content: "";
+      background: linear-gradient(to right, #339933, #ccff66);
+      position: absolute;
+      bottom: 2px;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      transition: 0.25s cubic-bezier(0.72, -0.1, 0.19, 0.92); }
+    .menu4 h3:hover:after {
+      width: 100%; } }
   @media only screen and (min-width: 600px) and (max-width: 850px) {
     .menu4 {
       max-width: 600px;
       margin-top: 80px;
       margin-bottom: 80px; }
+      .menu4 .trait {
+        width: 100%;
+        text-align: center; }
+      .menu4 h3 {
+        position: relative;
+        display: inline; }
+      .menu4 h3::after {
+        content: "";
+        background: linear-gradient(to right, #339933, #ccff66);
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        width: 0%;
+        height: 3px;
+        transition: 0.25s cubic-bezier(0.72, -0.1, 0.19, 0.92); }
+      .menu4 h3:hover:after {
+        width: 100%; }
       .menu4 .recipes {
         margin: 30px 40px; }
       .menu4 .dish {

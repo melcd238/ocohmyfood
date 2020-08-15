@@ -93,7 +93,7 @@ header{
         background-color: map-get($color, color-note );
         font-family: map-get($font-family,family-note );
                &--lien{
-                   color:#330000;
+                   color:map-get($color,color-menu-note);
                    font-size: 1.5rem;
                     
                }
@@ -113,7 +113,7 @@ header{
                  }
                  & .menu_chic--lienmenu{
                      font-size: 1.8rem;
-                     color: #cc6600;
+                     color: map-get($color ,color-menu2-entree);
                  }
     
      }
@@ -128,7 +128,7 @@ header{
                   }
                   & .menu_delice--lienmenu{
                     font-size: 1.8rem;
-                    color:#0099ff;
+                    color: map-get($color , color-menu-delice);
                   }
        
      }
@@ -143,7 +143,7 @@ header{
           }
           & .menu_palette--lienmenu{
             font-size: 1.8rem;
-            color:#339933;
+            color: map-get($color , color-menu-palette);
           }
        
      }
@@ -194,10 +194,10 @@ footer{
     align-items: center;
     padding-bottom: 10vh; }
     .btn {
-      background-color: #579c87;
-      border: solid 1px #579c87;
+      background-color: map-get($color, backgroudcolor-header-footer );
+      border: solid 1px map-get($color, backgroudcolor-header-footer );
       border-radius: 10px;
-      color: #fdcb46;
+      color: map-get($color , color-text-header-footer);
       font-family: map-get($font-family , family-ohmyfood );
       width: 12rem;
       height: 2.5rem;
@@ -226,10 +226,7 @@ footer{
     animation: pointmove 0.6s 0.4s infinite alternate;
 }
 /*mise en place des menus*/
-ul{
-    margin-left: 0;
-    padding-left: 0;
-}
+
 
 .recipes{
     margin: 20px 50px;
@@ -250,19 +247,19 @@ ul{
     display: flex;
     flex-direction: column;
              h2, h3{
-                color: #330000;
+                color: map-get($color , color-menu-note );
              }
              
           .dish{
              font-size: 1.1rem;
-             color: #999999;
+             color: map-get($color , color-menu-note-dish);
              margin-top: 5px;
              width: 90%;
              font-weight: 500;
          }
          .price{
              font-weight: bolder;
-             color: #330000;
+             color: map-get($color , color-menu-note );
              margin-top: 4px;
              width: 10%;
              text-align: center;
@@ -270,6 +267,9 @@ ul{
           .finmenu1{
              text-align: center;
          }
+    @include responsive(large) {
+        @include traitsoush3($background-note);
+    }   
     @include responsive(medium) {
         max-width: 600px;
         margin-top: 80px;
@@ -356,6 +356,9 @@ i{
                     font-weight: bolder;
                     width: 10%;
                 }
+    @include responsive(large) {
+             @include traitsoush3($background-chic);
+       }               
     @include responsive(medium){
         max-width: 600px;
         margin-top: 80px;
@@ -414,10 +417,15 @@ i{
             font-weight: bolder;
             width: 10%;
         }
+        @include responsive(large) {
+            @include traitsoush3($background-delice);
+      }           
+        
         @include responsive(medium){
             max-width: 600px;
             margin-top: 80px;
             margin-bottom: 80px;
+            @include traitsoush3($background-delice);
            
            .recipes{
                margin:30px 40px;
@@ -489,13 +497,16 @@ i{
             font-weight: bolder;
             width: 10%;
         }
+        @include responsive(large) {
+            @include traitsoush3($background-palette);
+      }               
 
 
     @include responsive(medium){
         max-width: 600px;
         margin-top: 80px;
         margin-bottom: 80px;
-       
+        @include traitsoush3($background-palette);
        .recipes{
            margin:30px 40px;
        }
