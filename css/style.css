@@ -292,7 +292,7 @@ footer {
       content: "";
       background: linear-gradient(to right, #FF6666 60%, #FF9966);
       position: absolute;
-      bottom: 2px;
+      bottom: -2px;
       left: 0;
       width: 0%;
       height: 3px;
@@ -301,7 +301,7 @@ footer {
       width: 100%; }
     .menu1 .traitdecoratif {
       background-image: url(/img/traitmenu1.svg);
-      width: 90%;
+      width: 60%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
@@ -324,7 +324,7 @@ footer {
         content: "";
         background: linear-gradient(to right, #FF6666 60%, #FF9966);
         position: absolute;
-        bottom: 2px;
+        bottom: -2px;
         left: 0;
         width: 0%;
         height: 3px;
@@ -333,7 +333,7 @@ footer {
         width: 100%; }
       .menu1 .traitdecoratif {
         background-image: url(/img/traitmenu1.svg);
-        width: 90%;
+        width: 60%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
@@ -400,6 +400,8 @@ i {
     text-align: center; }
   .menu2 .headermenu {
     text-align: center; }
+  .menu2 h3 {
+    font-size: 1rem; }
   .menu2 h2 {
     background: linear-gradient(to right, #cc6600, #9966ff);
     -webkit-background-clip: text;
@@ -432,13 +434,40 @@ i {
       content: "";
       background: linear-gradient(to right, #cc6600, #9966ff);
       position: absolute;
-      bottom: 2px;
+      bottom: -2px;
       left: 0;
       width: 0%;
       height: 3px;
       transition: 0.25s cubic-bezier(0.72, -0.1, 0.19, 0.92); }
     .menu2 h3:hover:after {
-      width: 100%; } }
+      width: 100%; }
+    .menu2 .traitdecoratif {
+      background-image: url(/img/traitmenu2_1.svg);
+      width: 60%;
+      height: 5px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center; }
+      .menu2 .traitdecoratif_rotation {
+        transform: rotate(180deg); }
+    .menu2 .traitdecoratif2 {
+      background-image: url(/img/traitmenu2_2.svg);
+      width: 60%;
+      height: 5px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center; }
+      .menu2 .traitdecoratif2_rotation {
+        transform: rotate(180deg); }
+    .menu2 .traitdecoratif3 {
+      background-image: url(/img/traitmenu2_3.svg);
+      width: 60%;
+      height: 5px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center; }
+      .menu2 .traitdecoratif3_rotation {
+        transform: rotate(180deg); } }
   @media only screen and (min-width: 600px) and (max-width: 850px) {
     .menu2 {
       max-width: 600px;
@@ -457,13 +486,40 @@ i {
         content: "";
         background: linear-gradient(to right, #cc6600, #9966ff);
         position: absolute;
-        bottom: 2px;
+        bottom: -2px;
         left: 0;
         width: 0%;
         height: 3px;
         transition: 0.25s cubic-bezier(0.72, -0.1, 0.19, 0.92); }
       .menu2 h3:hover:after {
         width: 100%; }
+      .menu2 .traitdecoratif {
+        background-image: url(/img/traitmenu2_1.svg);
+        width: 60%;
+        height: 5px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center; }
+        .menu2 .traitdecoratif_rotation {
+          transform: rotate(180deg); }
+      .menu2 .traitdecoratif2 {
+        background-image: url(/img/traitmenu2_2.svg);
+        width: 60%;
+        height: 5px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center; }
+        .menu2 .traitdecoratif2_rotation {
+          transform: rotate(180deg); }
+      .menu2 .traitdecoratif3 {
+        background-image: url(/img/traitmenu2_3.svg);
+        width: 60%;
+        height: 5px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center; }
+        .menu2 .traitdecoratif3_rotation {
+          transform: rotate(180deg); }
       .menu2 .recipes {
         margin: 30px 40px; }
       .menu2 .dish {
@@ -534,7 +590,7 @@ i {
       content: "";
       background: linear-gradient(to right, #0033cc, #0099ff);
       position: absolute;
-      bottom: 2px;
+      bottom: -2px;
       left: 0;
       width: 0%;
       height: 3px;
@@ -559,7 +615,7 @@ i {
         content: "";
         background: linear-gradient(to right, #0033cc, #0099ff);
         position: absolute;
-        bottom: 2px;
+        bottom: -2px;
         left: 0;
         width: 0%;
         height: 3px;
@@ -651,7 +707,7 @@ i {
       content: "";
       background: linear-gradient(to right, #339933, #ccff66);
       position: absolute;
-      bottom: 2px;
+      bottom: -2px;
       left: 0;
       width: 0%;
       height: 3px;
@@ -676,7 +732,7 @@ i {
         content: "";
         background: linear-gradient(to right, #339933, #ccff66);
         position: absolute;
-        bottom: 2px;
+        bottom: -2px;
         left: 0;
         width: 0%;
         height: 3px;

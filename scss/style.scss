@@ -267,29 +267,25 @@ footer{
           .finmenu1{
              text-align: center;
          }
+        
     @include responsive(large) {
+        
         @include traitsoush3($background-note);
         .traitdecoratif{
             background-image: url(/img/traitmenu1.svg);
-            width: 90%;
-            height: 5px;
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center;
+            @include traitdecorationmenu;
         }
+        
     }   
     @include responsive(medium) {
         max-width: 600px;
         margin-top: 80px;
         margin-bottom: 80px;
+        
         @include traitsoush3($background-note);
         .traitdecoratif{
             background-image: url(/img/traitmenu1.svg);
-            width: 90%;
-            height: 5px;
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center;
+            @include traitdecorationmenu;
         }
        .recipes{
            margin:10px 40px;
@@ -350,6 +346,9 @@ i{
     background-color: map-get($color, color-chic );
     font-family:map-get($font-family, family-chic) ;
     line-height: 1.1;
+                   h3{
+                       font-size: 1rem;
+                   }
                    h2{
         background: $background-chic;
         -webkit-background-clip: text;
@@ -375,18 +374,64 @@ i{
                 }
     @include responsive(large) {
              @include traitsoush3($background-chic);
+             .traitdecoratif{
+                background-image: url(/img/traitmenu2_1.svg);
+                @include traitdecorationmenu;
+                &_rotation{
+                    transform: rotate(180deg);
+                }
+                
+            }
+            .traitdecoratif2{
+                background-image: url(/img/traitmenu2_2.svg);
+                @include traitdecorationmenu;
+                &_rotation{
+                    transform: rotate(180deg);
+                }
+            }
+            .traitdecoratif3{
+                background-image: url(/img/traitmenu2_3.svg);
+                @include traitdecorationmenu;
+                &_rotation{
+                    transform: rotate(180deg);
+                }
+            }
+           
        }               
     @include responsive(medium){
         max-width: 600px;
         margin-top: 80px;
         margin-bottom: 80px;
+        
         @include traitsoush3($background-chic);
+        .traitdecoratif{
+            background-image: url(/img/traitmenu2_1.svg);
+            @include traitdecorationmenu;
+            &_rotation{
+                transform: rotate(180deg);
+            }
+        }
+        .traitdecoratif2{
+            background-image: url(/img/traitmenu2_2.svg);
+            @include traitdecorationmenu;
+            &_rotation{
+                transform: rotate(180deg);
+            }
+        }
+        .traitdecoratif3{
+                background-image: url(/img/traitmenu2_3.svg);
+                @include traitdecorationmenu;
+                &_rotation{
+                    transform: rotate(180deg);
+                }
+            }    
        .recipes{
            margin:30px 40px;
        }
        .dish{
            font-size: 1rem;
        }
+       
     }
                
     @include responsive(small){
