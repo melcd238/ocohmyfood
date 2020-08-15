@@ -31,3 +31,28 @@
     }
    
 }
+
+@mixin traitsoush3($background) {
+    .trait{
+        width: 100%;
+        text-align: center;
+    }
+    h3{
+        position: relative;
+        display: inline;
+    }
+    h3::after{
+        content: "";
+        background: $background;
+        position: absolute;
+        bottom: 2px;
+        left:0;
+        width: 0%;
+        height: 3px;
+        transition: 0.25s cubic-bezier(0.72, -0.1, 0.19, 0.92);
+
+    }
+    h3:hover:after{
+        width: 100%;
+    }
+}

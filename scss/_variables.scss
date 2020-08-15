@@ -1,8 +1,15 @@
 $color: (color-note: #fcdfdb, color-chic:#fff5fe, color-delice:#f9f9f9, color-palette:#fdfffd,
-backgroudcolor-header-footer:#579c87, color-text-header-footer:#fdcb46);
+backgroudcolor-header-footer:#579c87, color-text-header-footer:#fdcb46,
+ color-menu2-entree:#cc6600, color-menu2-plat: #996699, color-menue2-dessert: #6633cc );
 
 
 $font-family: ( family-note:'Loved by the King', family-chic:'Amita', family-delice:'Galada',
  family-palette: 'Kaushan Script', family-ohmyfood:'Open Sans') ;
  
- 
+ $background-note: linear-gradient(to right, #FF6666 60%, #FF9966) ;
+ $background-chic: linear-gradient(to right, #cc6600, #9966ff);
+ $background-delice: linear-gradient(to right, #0033cc, #0099ff);
+ $background-palette: linear-gradient(to right, #339933, #ccff66);
+ $background-inverse-note: linear-gradient(to right,#FF9966 ,#FF6666 60%);
+ $background-inverse-delice: linear-gradient(to right, #0099ff, #0033cc);
+ $background-inverse-palette: linear-gradient(to right, #ccff66, #339933);
