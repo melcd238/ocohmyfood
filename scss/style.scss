@@ -269,12 +269,28 @@ footer{
          }
     @include responsive(large) {
         @include traitsoush3($background-note);
+        .traitdecoratif{
+            background-image: url(/img/traitmenu1.svg);
+            width: 90%;
+            height: 5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
     }   
     @include responsive(medium) {
         max-width: 600px;
         margin-top: 80px;
         margin-bottom: 80px;
         @include traitsoush3($background-note);
+        .traitdecoratif{
+            background-image: url(/img/traitmenu1.svg);
+            width: 90%;
+            height: 5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
        .recipes{
            margin:10px 40px;
        }

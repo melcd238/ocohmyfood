@@ -37,7 +37,10 @@
 @mixin traitsoush3($background) {
     .trait{
         width: 100%;
-        text-align: center;
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: center;
+        align-items: center;
     }
     h3{
         position: relative;

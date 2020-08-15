@@ -281,7 +281,10 @@ footer {
   @media only screen and (min-width: 851px) {
     .menu1 .trait {
       width: 100%;
-      text-align: center; }
+      display: flex;
+      flex-direction: row nowrap;
+      justify-content: center;
+      align-items: center; }
     .menu1 h3 {
       position: relative;
       display: inline; }
@@ -295,7 +298,14 @@ footer {
       height: 3px;
       transition: 0.25s cubic-bezier(0.72, -0.1, 0.19, 0.92); }
     .menu1 h3:hover:after {
-      width: 100%; } }
+      width: 100%; }
+    .menu1 .traitdecoratif {
+      background-image: url(/img/traitmenu1.svg);
+      width: 90%;
+      height: 5px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center; } }
   @media only screen and (min-width: 600px) and (max-width: 850px) {
     .menu1 {
       max-width: 600px;
@@ -303,7 +313,10 @@ footer {
       margin-bottom: 80px; }
       .menu1 .trait {
         width: 100%;
-        text-align: center; }
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: center;
+        align-items: center; }
       .menu1 h3 {
         position: relative;
         display: inline; }
@@ -318,6 +331,13 @@ footer {
         transition: 0.25s cubic-bezier(0.72, -0.1, 0.19, 0.92); }
       .menu1 h3:hover:after {
         width: 100%; }
+      .menu1 .traitdecoratif {
+        background-image: url(/img/traitmenu1.svg);
+        width: 90%;
+        height: 5px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center; }
       .menu1 .recipes {
         margin: 10px 40px; }
       .menu1 .dish {
@@ -401,7 +421,10 @@ i {
   @media only screen and (min-width: 851px) {
     .menu2 .trait {
       width: 100%;
-      text-align: center; }
+      display: flex;
+      flex-direction: row nowrap;
+      justify-content: center;
+      align-items: center; }
     .menu2 h3 {
       position: relative;
       display: inline; }
@@ -423,7 +446,10 @@ i {
       margin-bottom: 80px; }
       .menu2 .trait {
         width: 100%;
-        text-align: center; }
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: center;
+        align-items: center; }
       .menu2 h3 {
         position: relative;
         display: inline; }
@@ -497,7 +523,10 @@ i {
   @media only screen and (min-width: 851px) {
     .menu3 .trait {
       width: 100%;
-      text-align: center; }
+      display: flex;
+      flex-direction: row nowrap;
+      justify-content: center;
+      align-items: center; }
     .menu3 h3 {
       position: relative;
       display: inline; }
@@ -519,7 +548,10 @@ i {
       margin-bottom: 80px; }
       .menu3 .trait {
         width: 100%;
-        text-align: center; }
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: center;
+        align-items: center; }
       .menu3 h3 {
         position: relative;
         display: inline; }
@@ -608,7 +640,10 @@ i {
   @media only screen and (min-width: 851px) {
     .menu4 .trait {
       width: 100%;
-      text-align: center; }
+      display: flex;
+      flex-direction: row nowrap;
+      justify-content: center;
+      align-items: center; }
     .menu4 h3 {
       position: relative;
       display: inline; }
@@ -630,7 +665,10 @@ i {
       margin-bottom: 80px; }
       .menu4 .trait {
         width: 100%;
-        text-align: center; }
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: center;
+        align-items: center; }
       .menu4 h3 {
         position: relative;
         display: inline; }
