@@ -29,6 +29,12 @@
     transform: scale(1.2);
     opacity: 60%; } }
 
+@keyframes opacitymenu {
+  from {
+    opacity: 50%; }
+  to {
+    opacity: 100%; } }
+
 /*mise en page générale*/
 body {
   margin: 0;
@@ -320,7 +326,8 @@ footer {
     .menu1 {
       max-width: 360px;
       margin-top: 70px;
-      margin-bottom: 70px; }
+      margin-bottom: 70px;
+      animation: opacitymenu 4s 0.1s; }
       .menu1 .dish {
         font-size: 1rem; }
       .menu1 ul li {
@@ -439,7 +446,8 @@ i {
     .menu2 {
       max-width: 360px;
       margin-top: 70px;
-      margin-bottom: 70px; }
+      margin-bottom: 70px;
+      animation: opacitymenu 4s 0.1s; }
       .menu2 h2 {
         font-size: 1.5rem; }
       .menu2 .dish {
@@ -534,7 +542,8 @@ i {
     .menu3 {
       max-width: 360px;
       margin-top: 70px;
-      margin-bottom: 70px; }
+      margin-bottom: 70px;
+      animation: opacitymenu 4s 0.1s; }
       .menu3 .dish {
         font-size: 0.8rem; }
       .menu3 .price {
@@ -644,7 +653,8 @@ i {
     .menu4 {
       max-width: 360px;
       margin-top: 70px;
-      margin-bottom: 70px; }
+      margin-bottom: 70px;
+      animation: opacitymenu 4s 0.1s; }
       .menu4 h2 {
         font-size: 1.8rem; }
       .menu4 .dish {
