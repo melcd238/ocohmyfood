@@ -31,6 +31,7 @@ body{
 /* Mise en place du Header*/
 header{
     @include headerfooter;
+    z-index: 1;
     top: 0;
     background-color: map-get($color,backgroudcolor-header-footer ) ;
     justify-content: center;
@@ -177,6 +178,9 @@ footer{
             }       
      @include responsive(small) {
         width: 100%;
+            a{
+                font-size: 1rem;
+            }
        
      } 
     
@@ -202,7 +206,7 @@ footer{
       justify-content: center;
       align-items: center;
       @include responsive(small){
-          font-size: 0.9rem;
+          font-size: 1rem;
       }
     }
       
@@ -250,9 +254,8 @@ ul{
              }
              
           .dish{
-             font-size: 1rem;
+             font-size: 1.1rem;
              color: #999999;
-             
              margin-top: 5px;
              width: 90%;
              font-weight: 500;
@@ -347,11 +350,11 @@ i{
                    .dish{
                     font-size: 0.9rem;
                     padding-left: 10px;
-                    width: 80%;
+                    width: 90%;
                 }
                 .price{
                     font-weight: bolder;
-                    width: 20%;
+                    width: 10%;
                 }
     @include responsive(medium){
         max-width: 600px;
@@ -405,11 +408,11 @@ i{
         .dish{
             font-size: 0.9rem;
             padding-left: 10px;
-            width: 80%;
+            width: 90%;
         }
         .price{
             font-weight: bolder;
-            width: 20%;
+            width: 10%;
         }
         @include responsive(medium){
             max-width: 600px;
@@ -474,7 +477,17 @@ i{
         h2{
             background: linear-gradient(to right, #339933, #ccff66);
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent; 
+            -webkit-text-fill-color: transparent;
+            font-size: 2rem; 
+        }
+        .dish{
+            font-size: 1.1rem;
+            padding-left: 10px;
+            width: 90%;
+        }
+        .price{
+            font-weight: bolder;
+            width: 10%;
         }
 
 
@@ -487,7 +500,7 @@ i{
            margin:30px 40px;
        }
        .dish{
-           font-size: 0.9rem;
+           font-size: 1rem;
        }
     }        
 
@@ -500,7 +513,7 @@ i{
             }
             
             .dish{
-           font-size: 0.7rem;
+           font-size: 0.9rem;
     }
             .price{
             margin-top: 0;
