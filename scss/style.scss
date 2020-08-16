@@ -116,7 +116,7 @@
         
         @include traitsoush3($background-note);
         .traitdecoratif{
-            background-image: url(/img/traitmenu1.svg);
+            background-image: url(img/traitmenu1.svg);
             @include traitdecorationmenu;
         }
         
@@ -125,7 +125,7 @@
         @include mediumresponsive;
         @include traitsoush3($background-note);
         .traitdecoratif{
-            background-image: url(/img/traitmenu1.svg);
+            background-image: url(img/traitmenu1.svg);
             @include traitdecorationmenu;
         }
       
@@ -189,7 +189,7 @@ i{
     @include responsive(large) {
              @include traitsoush3($background-chic);
              .traitdecoratif{
-                background-image: url(/img/traitmenu2_1.svg);
+                background-image: url(img/traitmenu2_1.svg);
                 @include traitdecorationmenu;
                 &_rotation{
                     transform: rotate(180deg);
@@ -197,14 +197,14 @@ i{
                 
             }
             .traitdecoratif2{
-                background-image: url(/img/traitmenu2_2.svg);
+                background-image: url(img/traitmenu2_2.svg);
                 @include traitdecorationmenu;
                 &_rotation{
                     transform: rotate(180deg);
                 }
             }
             .traitdecoratif3{
-                background-image: url(/img/traitmenu2_3.svg);
+                background-image: url(img/traitmenu2_3.svg);
                 @include traitdecorationmenu;
                 &_rotation{
                     transform: rotate(180deg);
@@ -216,21 +216,21 @@ i{
        @include mediumresponsive;
          @include traitsoush3($background-chic);
         .traitdecoratif{
-            background-image: url(/img/traitmenu2_1.svg);
+            background-image: url(img/traitmenu2_1.svg);
             @include traitdecorationmenu;
             &_rotation{
                 transform: rotate(180deg);
             }
         }
         .traitdecoratif2{
-            background-image: url(/img/traitmenu2_2.svg);
+            background-image: url(img/traitmenu2_2.svg);
             @include traitdecorationmenu;
             &_rotation{
                 transform: rotate(180deg);
             }
         }
         .traitdecoratif3{
-                background-image: url(/img/traitmenu2_3.svg);
+                background-image: url(img/traitmenu2_3.svg);
                 @include traitdecorationmenu;
                 &_rotation{
                     transform: rotate(180deg);
@@ -277,26 +277,26 @@ i{
         @include responsive(large) {
             @include traitsoush3($background-delice);
             .traitdecoratif3_1L{
-                background-image: url(/img/traitmenu3_1L.svg);
+                background-image: url(img/traitmenu3_1L.svg);
                 @include traitdecorationmenu;}
             .traitdecoratif3_1R{
-                    background-image: url(/img/traitmenu3_1R.svg);
+                    background-image: url(img/traitmenu3_1R.svg);
                     @include traitdecorationmenu;
                 }
                 .traitdecoratif3_2L{
-                    background-image: url(/img/traitmenu3_2L.svg);
+                    background-image: url(img/traitmenu3_2L.svg);
                     @include traitdecorationmenu;
                 } 
                 .traitdecoratif3_2R{
-                    background-image: url(/img/traitmenu3_2R.svg);
+                    background-image: url(img/traitmenu3_2R.svg);
                     @include traitdecorationmenu;
                 } 
                 .traitdecoratif3_3L{
-                    background-image: url(/img/traitmenu3_3L.svg);
+                    background-image: url(img/traitmenu3_3L.svg);
                     @include traitdecorationmenu;
                 }
                 .traitdecoratif3_3R{
-                    background-image: url(/img/traitmenu3_3R.svg);
+                    background-image: url(img/traitmenu3_3R.svg);
                     @include traitdecorationmenu;
                 }  
                 
@@ -307,26 +307,26 @@ i{
             @include mediumresponsive;
             @include traitsoush3($background-delice);
             .traitdecoratif3_1L{
-                background-image: url(/img/traitmenu3_1L.svg);
+                background-image: url(img/traitmenu3_1L.svg);
                 @include traitdecorationmenu;}
             .traitdecoratif3_1R{
-                    background-image: url(/img/traitmenu3_1R.svg);
+                    background-image: url(img/traitmenu3_1R.svg);
                     @include traitdecorationmenu;
                 }
                 .traitdecoratif3_2L{
-                    background-image: url(/img/traitmenu3_2L.svg);
+                    background-image: url(img/traitmenu3_2L.svg);
                     @include traitdecorationmenu;
                 } 
                 .traitdecoratif3_2R{
-                    background-image: url(/img/traitmenu3_3R.svg);
+                    background-image: url(img/traitmenu3_3R.svg);
                     @include traitdecorationmenu;
                 } 
                 .traitdecoratif3_3L{
-                    background-image: url(/img/traitmenu3_3L.svg);
+                    background-image: url(img/traitmenu3_3L.svg);
                     @include traitdecorationmenu;
                 }
                 .traitdecoratif3_3R{
-                    background-image: url(/img/traitmenu3_2R.svg);
+                    background-image: url(img/traitmenu3_2R.svg);
                     @include traitdecorationmenu;
                 }  
             .dish{
@@ -380,7 +380,7 @@ i{
         @include responsive(large) {
             @include traitsoush3($background-palette);
             .traitdecoratif4{
-                background-image: url(/img/traitmenu4.svg);
+                background-image: url(img/traitmenu4.svg);
                 @include traitdecorationmenu;
                 &_rotation{
                     transform: rotate(180deg);
@@ -393,7 +393,7 @@ i{
         @include mediumresponsive;
         @include traitsoush3($background-palette);
         .traitdecoratif4{
-            background-image: url(/img/traitmenu4.svg);
+            background-image: url(img/traitmenu4.svg);
             @include traitdecorationmenu;
             &_rotation{
                 transform: rotate(180deg);
@@ -436,6 +436,20 @@ i{
 /*mentions légales*/
 
 .mention{
-     font-family: map-get($font-family , family-mentionslegales ); 
+     font-family: map-get($font-family , family-mentionslegales );
+     max-width: 900px;
+     margin: auto;
+     margin-top: 90px;
+     margin-bottom: 90px;
+     border-radius: 10px;
+     box-shadow: 0 6px 12px rgba(0, 0, 0, .22), 0 10px 40px rgba(0, 0, 0, .25);
+           .section_mention{
+               width: 80%;
+               margin: auto;
+                 h4{
+                     text-align: center;
+                     text-transform: uppercase;
+                 }
+           }
 
 }
