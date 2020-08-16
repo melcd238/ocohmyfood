@@ -75,7 +75,7 @@
         width: 100%;
     }
 }
-@mixin traitdecorationmenu {
+@mixin traitdecorationmenu  {
             width: 60%;
             height: 5px;
             background-repeat: no-repeat;
@@ -110,6 +110,14 @@
             align-items: center;
             
             }
+}
+@mixin traitmenu_smallresponsive ($background) {
+            content: "";
+            background:$background ;
+            width: 80px;
+            height: 2px;
+            position: absolute;
+            bottom: 10px;
 }
 
 

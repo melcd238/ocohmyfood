@@ -140,22 +140,12 @@
             position: relative;
         }
         h3::before{
-            content: "";
-            background: $background-inverse-note ;
-            width: 80px;
-            height: 2px;
-            position: absolute;
+            @include traitmenu_smallresponsive ($background-inverse-note );
             left: 5px;
-            bottom: 10px;
         }
         h3::after{
-            content: "";
-            background: $background-note ;
-            width: 80px;
-            height: 2px;
-            position: absolute;
-            right:  5px;
-            bottom: 10px;
+            @include traitmenu_smallresponsive ($background-note );
+            right: 5px;
         }
         }
 }
@@ -353,22 +343,14 @@ i{
             position: relative;
         }
         h3::before{
-            content: "";
-            background: $background-inverse-delice;
-            width: 60px;
-            height: 2px;
-            position: absolute;
+            @include traitmenu_smallresponsive ($background-inverse-delice );
             left: 5px;
-            bottom: 10px;
+            
         }
         h3::after{
-            content: "";
-            background: $background-delice;
-            width: 60px;
-            height: 2px;
-            position: absolute;
+            @include traitmenu_smallresponsive ($background-delice );
             right:  5px;
-            bottom: 10px;
+            
         }   
         }
     
@@ -432,22 +414,14 @@ i{
             position: relative;
             }
         h3::before{
-            content: "";
-            background: $background-inverse-palette;
-            width: 60px;
-            height: 2px;
-            position: absolute;
+            @include traitmenu_smallresponsive ($background-inverse-palette);
             left: 5px;
-            bottom: 10px;
+            
              }
         h3::after{
-        content: "";
-        background: $background-palette;
-        width: 60px;
-        height: 2px;
-        position: absolute;
-        right:  5px;
-        bottom: 10px;
+            @include traitmenu_smallresponsive ($background-palette);
+            right:  5px;
+        
     }   
     }
     

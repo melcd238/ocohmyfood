@@ -355,16 +355,16 @@ footer {
         width: 80px;
         height: 2px;
         position: absolute;
-        left: 5px;
-        bottom: 10px; }
+        bottom: 10px;
+        left: 5px; }
       .menu1 h3::after {
         content: "";
         background: linear-gradient(to right, #FF6666 60%, #FF9966);
         width: 80px;
         height: 2px;
         position: absolute;
-        right: 5px;
-        bottom: 10px; } }
+        bottom: 10px;
+        right: 5px; } }
 
 i {
   background: linear-gradient(to right, #FF6666 60%, #FF9966);
@@ -734,19 +734,19 @@ i {
       .menu3 h3::before {
         content: "";
         background: linear-gradient(to right, #0099ff, #0033cc);
-        width: 60px;
+        width: 80px;
         height: 2px;
         position: absolute;
-        left: 5px;
-        bottom: 10px; }
+        bottom: 10px;
+        left: 5px; }
       .menu3 h3::after {
         content: "";
         background: linear-gradient(to right, #0033cc, #0099ff);
-        width: 60px;
+        width: 80px;
         height: 2px;
         position: absolute;
-        right: 5px;
-        bottom: 10px; } }
+        bottom: 10px;
+        right: 5px; } }
 
 /* Menu Palette*/
 .menu4 {
@@ -877,19 +877,19 @@ i {
       .menu4 h3::before {
         content: "";
         background: linear-gradient(to right, #ccff66, #339933);
-        width: 60px;
+        width: 80px;
         height: 2px;
         position: absolute;
-        left: 5px;
-        bottom: 10px; }
+        bottom: 10px;
+        left: 5px; }
       .menu4 h3::after {
         content: "";
         background: linear-gradient(to right, #339933, #ccff66);
-        width: 60px;
+        width: 80px;
         height: 2px;
         position: absolute;
-        right: 5px;
-        bottom: 10px; } }
+        bottom: 10px;
+        right: 5px; } }
 
 /*mentions légales*/
 .mention {
