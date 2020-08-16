@@ -292,7 +292,7 @@ footer {
     .menu1 h3:hover:after {
       width: 100%; }
     .menu1 .traitdecoratif {
-      background-image: url(img/traitmenu1.svg);
+      background-image: url(/img/traitmenu1.svg);
       width: 60%;
       height: 5px;
       background-repeat: no-repeat;
@@ -326,7 +326,7 @@ footer {
       .menu1 h3:hover:after {
         width: 100%; }
       .menu1 .traitdecoratif {
-        background-image: url(img/traitmenu1.svg);
+        background-image: url(/img/traitmenu1.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
@@ -441,7 +441,7 @@ i {
     .menu2 h3:hover:after {
       width: 100%; }
     .menu2 .traitdecoratif {
-      background-image: url(img/traitmenu2_1.svg);
+      background-image: url(/img/traitmenu2_1.svg);
       width: 60%;
       height: 5px;
       background-repeat: no-repeat;
@@ -450,7 +450,7 @@ i {
       .menu2 .traitdecoratif_rotation {
         transform: rotate(180deg); }
     .menu2 .traitdecoratif2 {
-      background-image: url(img/traitmenu2_2.svg);
+      background-image: url(/img/traitmenu2_2.svg);
       width: 60%;
       height: 5px;
       background-repeat: no-repeat;
@@ -459,7 +459,7 @@ i {
       .menu2 .traitdecoratif2_rotation {
         transform: rotate(180deg); }
     .menu2 .traitdecoratif3 {
-      background-image: url(img/traitmenu2_3.svg);
+      background-image: url(/img/traitmenu2_3.svg);
       width: 60%;
       height: 5px;
       background-repeat: no-repeat;
@@ -495,7 +495,7 @@ i {
       .menu2 h3:hover:after {
         width: 100%; }
       .menu2 .traitdecoratif {
-        background-image: url(img/traitmenu2_1.svg);
+        background-image: url(/img/traitmenu2_1.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
@@ -504,7 +504,7 @@ i {
         .menu2 .traitdecoratif_rotation {
           transform: rotate(180deg); }
       .menu2 .traitdecoratif2 {
-        background-image: url(img/traitmenu2_2.svg);
+        background-image: url(/img/traitmenu2_2.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
@@ -513,7 +513,7 @@ i {
         .menu2 .traitdecoratif2_rotation {
           transform: rotate(180deg); }
       .menu2 .traitdecoratif3 {
-        background-image: url(img/traitmenu2_3.svg);
+        background-image: url(/img/traitmenu2_3.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
@@ -604,42 +604,42 @@ i {
     .menu3 h3:hover:after {
       width: 100%; }
     .menu3 .traitdecoratif3_1L {
-      background-image: url(img/traitmenu3_1L.svg);
+      background-image: url(/img/traitmenu3_1L.svg);
       width: 60%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
     .menu3 .traitdecoratif3_1R {
-      background-image: url(img/traitmenu3_1R.svg);
+      background-image: url(/img/traitmenu3_1R.svg);
       width: 60%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
     .menu3 .traitdecoratif3_2L {
-      background-image: url(img/traitmenu3_2L.svg);
+      background-image: url(/img/traitmenu3_2L.svg);
       width: 60%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
     .menu3 .traitdecoratif3_2R {
-      background-image: url(img/traitmenu3_2R.svg);
+      background-image: url(/img/traitmenu3_2R.svg);
       width: 60%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
     .menu3 .traitdecoratif3_3L {
-      background-image: url(img/traitmenu3_3L.svg);
+      background-image: url(/img/traitmenu3_3L.svg);
       width: 60%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
     .menu3 .traitdecoratif3_3R {
-      background-image: url(img/traitmenu3_3R.svg);
+      background-image: url(/img/traitmenu3_3R.svg);
       width: 60%;
       height: 5px;
       background-repeat: no-repeat;
@@ -673,42 +673,42 @@ i {
       .menu3 h3:hover:after {
         width: 100%; }
       .menu3 .traitdecoratif3_1L {
-        background-image: url(img/traitmenu3_1L.svg);
+        background-image: url(/img/traitmenu3_1L.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_1R {
-        background-image: url(img/traitmenu3_1R.svg);
+        background-image: url(/img/traitmenu3_1R.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_2L {
-        background-image: url(img/traitmenu3_2L.svg);
+        background-image: url(/img/traitmenu3_2L.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_2R {
-        background-image: url(img/traitmenu3_3R.svg);
+        background-image: url(/img/traitmenu3_3R.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_3L {
-        background-image: url(img/traitmenu3_3L.svg);
+        background-image: url(/img/traitmenu3_3L.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_3R {
-        background-image: url(img/traitmenu3_2R.svg);
+        background-image: url(/img/traitmenu3_2R.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
@@ -812,7 +812,7 @@ i {
     .menu4 h3:hover:after {
       width: 100%; }
     .menu4 .traitdecoratif4 {
-      background-image: url(img/traitmenu4.svg);
+      background-image: url(/img/traitmenu4.svg);
       width: 60%;
       height: 5px;
       background-repeat: no-repeat;
@@ -848,7 +848,7 @@ i {
       .menu4 h3:hover:after {
         width: 100%; }
       .menu4 .traitdecoratif4 {
-        background-image: url(img/traitmenu4.svg);
+        background-image: url(/img/traitmenu4.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
