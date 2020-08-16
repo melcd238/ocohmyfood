@@ -52,7 +52,7 @@
     .trait{
         width: 100%;
         display: flex;
-        flex-direction: row nowrap;
+        flex-flow: row nowrap;
         justify-content: center;
         align-items: center;
     }
