@@ -87,21 +87,9 @@
 
 /*mise en place des différents  menus*/
 
-
-.recipes{
-     @include responsive(small){
-        margin: 5px 20px;
-        text-align: center;
-    }
-}
-
-
 /*menu la note enchantée*/
 .menu1{
-    @include menu-style-general;
-    background-color: map-get($color, color-note );
-    font-family: map-get($font-family,family-note );
-    line-height: 1.1;
+    @include menu-style-general(map-get($color, color-note ),map-get($font-family,family-note )) ;
     display: flex;
     flex-direction: column;
              h2, h3{
@@ -111,20 +99,15 @@
           .dish{
              font-size: 1.1rem;
              color: map-get($color , color-menu-note-dish);
-             margin-top: 5px;
-             width: 90%;
              font-weight: 500;
-         }
+             }
          .price{
-             font-weight: bolder;
              color: map-get($color , color-menu-note );
-             margin-top: 4px;
-             width: 10%;
+             }
+         .finmenu1{
              text-align: center;
          }
-          .finmenu1{
-             text-align: center;
-         }
+       
         
     @include responsive(large) {
         
@@ -136,41 +119,22 @@
         
     }   
     @include responsive(medium) {
-        max-width: 600px;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        
+        @include mediumresponsive;
         @include traitsoush3($background-note);
         .traitdecoratif{
             background-image: url(/img/traitmenu1.svg);
             @include traitdecorationmenu;
         }
-       .recipes{
-           margin:10px 40px;
-       }
+      
        .dish{
            font-size: 1rem;
        }
     }    
     @include responsive(small){
-        max-width: 360px;
-        margin-top: 70px;
-        margin-bottom: 70px;
-        animation: opacitymenu 3s;
-        .recipes{
-            margin: 5px 20px;
-            text-align: center;
-        }
-        
-        .dish{
+        @include smallresponsive;
+       .dish{
             font-size: 1rem;
         }
-        ul li {
-           display: flex; 
-           flex-direction: column;
-           align-items: center;
-           
-           }
         h3{
             font-size: 1.3rem;
             position: relative;
@@ -204,11 +168,8 @@ i{
 /*menu Le chic à la française*/
 
 .menu2{
-    @include menu-style-general;
-    background-color: map-get($color, color-chic );
-    font-family:map-get($font-family, family-chic) ;
-    line-height: 1.1;
-                   h3{
+    @include menu-style-general(map-get($color, color-chic ),map-get($font-family, family-chic)) ;
+                  h3{
                        font-size: 1rem;
                    }
                    h2{
@@ -227,13 +188,10 @@ i{
                    }
                    .dish{
                     font-size: 0.9rem;
-                    padding-left: 10px;
-                    width: 90%;
+                    
+                    
                 }
-                .price{
-                    font-weight: bolder;
-                    width: 10%;
-                }
+                
     @include responsive(large) {
              @include traitsoush3($background-chic);
              .traitdecoratif{
@@ -261,11 +219,8 @@ i{
            
        }               
     @include responsive(medium){
-        max-width: 600px;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        
-        @include traitsoush3($background-chic);
+       @include mediumresponsive;
+         @include traitsoush3($background-chic);
         .traitdecoratif{
             background-image: url(/img/traitmenu2_1.svg);
             @include traitdecorationmenu;
@@ -287,9 +242,6 @@ i{
                     transform: rotate(180deg);
                 }
             }    
-       .recipes{
-           margin:30px 40px;
-       }
        .dish{
            font-size: 1rem;
        }
@@ -297,14 +249,7 @@ i{
     }
                
     @include responsive(small){
-        max-width: 360px;
-        margin-top: 70px;
-        margin-bottom: 70px;
-        animation: opacitymenu 3s;
-        .recipes{
-            margin: 5px 20px;
-            text-align: center;
-        }
+        @include smallresponsive;
         h2{
             font-size: 1.5rem;
         }
@@ -315,23 +260,15 @@ i{
         .price{
             margin-top: 0;
         }
-        ul li {
-           display: flex; 
-           flex-direction: column;
-           align-items: center;
-           
-           }
+       
     } 
 }
 
 /* Menu Delice*/
 
 .menu3{
-    @include menu-style-general;
-    background-color:map-get($color,color-delice);
-    font-family:map-get($font-family,family-delice );
-    line-height:1.3 ;
-    h2{
+    @include menu-style-general(map-get($color,color-delice),map-get($font-family,family-delice )) ;
+      h2{
         background: $background-delice;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -339,13 +276,9 @@ i{
         font-weight: lighter;}
         .dish{
             font-size: 0.9rem;
-            padding-left: 10px;
-            width: 90%;
+            
         }
-        .price{
-            font-weight: bolder;
-            width: 10%;
-        }
+       
         @include responsive(large) {
             @include traitsoush3($background-delice);
             .traitdecoratif3_1L{
@@ -376,9 +309,7 @@ i{
                  
         
         @include responsive(medium){
-            max-width: 600px;
-            margin-top: 80px;
-            margin-bottom: 80px;
+            @include mediumresponsive;
             @include traitsoush3($background-delice);
             .traitdecoratif3_1L{
                 background-image: url(/img/traitmenu3_1L.svg);
@@ -392,7 +323,7 @@ i{
                     @include traitdecorationmenu;
                 } 
                 .traitdecoratif3_2R{
-                    background-image: url(/img/traitmenu3_2R.svg);
+                    background-image: url(/img/traitmenu3_3R.svg);
                     @include traitdecorationmenu;
                 } 
                 .traitdecoratif3_3L{
@@ -400,40 +331,24 @@ i{
                     @include traitdecorationmenu;
                 }
                 .traitdecoratif3_3R{
-                    background-image: url(/img/traitmenu3_3R.svg);
+                    background-image: url(/img/traitmenu3_2R.svg);
                     @include traitdecorationmenu;
                 }  
-            
-           
-           .recipes{
-               margin:30px 40px;
-           }
-           .dish{
+            .dish{
                font-size: 0.9rem;
            }
         }        
 
     @include responsive(small){
-        max-width: 360px;
-        margin-top: 70px;
-        margin-bottom: 70px;
-        animation: opacitymenu 3s;
-        .recipes{
-            margin: 5px 20px;
-            text-align: center;
-        }
-        .dish{
+        @include smallresponsive;
+       .dish{
             font-size: 0.8rem;
         }
         .price{
             margin-top: 0;
         }
-        ul li {
-           display: flex; 
-           flex-direction: column;
-           align-items: center;
-           }
-           h3{
+        
+        h3{
             font-size: 1rem;
             position: relative;
         }
@@ -461,10 +376,7 @@ i{
  
 /* Menu Palette*/    
 .menu4{
-    @include menu-style-general;
-    background-color: map-get($color, color-palette );
-    font-family:map-get($font-family,family-palette);
-    line-height: 1.1;
+    @include menu-style-general(map-get($color, color-palette ),map-get($font-family,family-palette)) ;
         h2{
             background: $background-palette;
             -webkit-background-clip: text;
@@ -473,13 +385,10 @@ i{
         }
         .dish{
             font-size: 1.1rem;
-            padding-left: 10px;
-            width: 90%;
+           
+            
         }
-        .price{
-            font-weight: bolder;
-            width: 10%;
-        }
+       
         @include responsive(large) {
             @include traitsoush3($background-palette);
             .traitdecoratif4{
@@ -493,9 +402,7 @@ i{
 
 
     @include responsive(medium){
-        max-width: 600px;
-        margin-top: 80px;
-        margin-bottom: 80px;
+        @include mediumresponsive;
         @include traitsoush3($background-palette);
         .traitdecoratif4{
             background-image: url(/img/traitmenu4.svg);
@@ -504,52 +411,36 @@ i{
                 transform: rotate(180deg);
             }
         }    
-       .recipes{
-           margin:30px 40px;
-       }
        .dish{
            font-size: 1rem;
        }
     }        
 
       @include responsive(small){
-         max-width: 360px;
-         margin-top: 70px;
-         margin-bottom: 70px;
-         animation: opacitymenu 3s;
-         .recipes{
-            margin: 5px 20px;
-            text-align: center;
-        }
-            h2{
+          @include smallresponsive;
+         h2{
                 font-size: 1.8rem;
             }
-            
-            .dish{
+        .dish{
            font-size: 0.9rem;
-    }
-            .price{
+            }
+        .price{
             margin-top: 0;
-    }
-            ul li {
-            display: flex; 
-            flex-direction: column;
-             align-items: center;
-       }
-       h3{
-        font-size: 1.2rem;
-        position: relative;
-    }
-    h3::before{
-        content: "";
-        background: $background-inverse-palette;
-        width: 60px;
-        height: 2px;
-        position: absolute;
-        left: 5px;
-        bottom: 10px;
-    }
-    h3::after{
+             }
+         h3{
+            font-size: 1.2rem;
+            position: relative;
+            }
+        h3::before{
+            content: "";
+            background: $background-inverse-palette;
+            width: 60px;
+            height: 2px;
+            position: absolute;
+            left: 5px;
+            bottom: 10px;
+             }
+        h3::after{
         content: "";
         background: $background-palette;
         width: 60px;

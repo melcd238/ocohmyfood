@@ -226,11 +226,6 @@ footer {
       color: #339933; }
 
 /*mise en place des différents  menus*/
-@media only screen and (max-width: 599px) {
-  .recipes {
-    margin: 5px 20px;
-    text-align: center; } }
-
 /*menu la note enchantée*/
 .menu1 {
   max-width: 900px;
@@ -238,10 +233,10 @@ footer {
   margin-top: 90px;
   margin-bottom: 90px;
   border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
   background-color: #fcdfdb;
   font-family: "Loved by the King";
   line-height: 1.1;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column; }
   .menu1 ul {
@@ -256,20 +251,20 @@ footer {
     text-align: center; }
   .menu1 .recipes {
     margin: 20px 50px; }
+  .menu1 .dish {
+    width: 90%;
+    padding-left: 10px; }
+  .menu1 .price {
+    width: 10%;
+    font-weight: bolder; }
   .menu1 h2, .menu1 h3 {
     color: #330000; }
   .menu1 .dish {
     font-size: 1.1rem;
     color: #999999;
-    margin-top: 5px;
-    width: 90%;
     font-weight: 500; }
   .menu1 .price {
-    font-weight: bolder;
-    color: #330000;
-    margin-top: 4px;
-    width: 10%;
-    text-align: center; }
+    color: #330000; }
   .menu1 .finmenu1 {
     text-align: center; }
   @media only screen and (min-width: 851px) {
@@ -305,6 +300,8 @@ footer {
       max-width: 600px;
       margin-top: 80px;
       margin-bottom: 80px; }
+      .menu1 .recipes {
+        margin: 30px 40px; }
       .menu1 .trait {
         width: 100%;
         display: flex;
@@ -332,8 +329,6 @@ footer {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
-      .menu1 .recipes {
-        margin: 10px 40px; }
       .menu1 .dish {
         font-size: 1rem; } }
   @media only screen and (max-width: 599px) {
@@ -345,12 +340,12 @@ footer {
       .menu1 .recipes {
         margin: 5px 20px;
         text-align: center; }
-      .menu1 .dish {
-        font-size: 1rem; }
       .menu1 ul li {
         display: flex;
         flex-direction: column;
         align-items: center; }
+      .menu1 .dish {
+        font-size: 1rem; }
       .menu1 h3 {
         font-size: 1.3rem;
         position: relative; }
@@ -383,10 +378,10 @@ i {
   margin-top: 90px;
   margin-bottom: 90px;
   border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
   background-color: #fff5fe;
   font-family: "Amita";
-  line-height: 1.1; }
+  line-height: 1.1;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25); }
   .menu2 ul {
     list-style: none;
     margin-left: 0;
@@ -399,6 +394,12 @@ i {
     text-align: center; }
   .menu2 .recipes {
     margin: 20px 50px; }
+  .menu2 .dish {
+    width: 90%;
+    padding-left: 10px; }
+  .menu2 .price {
+    width: 10%;
+    font-weight: bolder; }
   .menu2 h3 {
     font-size: 1rem; }
   .menu2 h2 {
@@ -413,12 +414,7 @@ i {
   .menu2 .menu2_dessert {
     color: #6633cc; }
   .menu2 .dish {
-    font-size: 0.9rem;
-    padding-left: 10px;
-    width: 90%; }
-  .menu2 .price {
-    font-weight: bolder;
-    width: 10%; }
+    font-size: 0.9rem; }
   @media only screen and (min-width: 851px) {
     .menu2 .trait {
       width: 100%;
@@ -472,6 +468,8 @@ i {
       max-width: 600px;
       margin-top: 80px;
       margin-bottom: 80px; }
+      .menu2 .recipes {
+        margin: 30px 40px; }
       .menu2 .trait {
         width: 100%;
         display: flex;
@@ -519,8 +517,6 @@ i {
         background-position: center; }
         .menu2 .traitdecoratif3_rotation {
           transform: rotate(180deg); }
-      .menu2 .recipes {
-        margin: 30px 40px; }
       .menu2 .dish {
         font-size: 1rem; } }
   @media only screen and (max-width: 599px) {
@@ -532,17 +528,17 @@ i {
       .menu2 .recipes {
         margin: 5px 20px;
         text-align: center; }
+      .menu2 ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
       .menu2 h2 {
         font-size: 1.5rem; }
       .menu2 .dish {
         font-size: 0.8rem;
         margin-top: 2px; }
       .menu2 .price {
-        margin-top: 0; }
-      .menu2 ul li {
-        display: flex;
-        flex-direction: column;
-        align-items: center; } }
+        margin-top: 0; } }
 
 /* Menu Delice*/
 .menu3 {
@@ -551,10 +547,10 @@ i {
   margin-top: 90px;
   margin-bottom: 90px;
   border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
   background-color: #f9f9f9;
   font-family: "Galada";
-  line-height: 1.3; }
+  line-height: 1.1;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25); }
   .menu3 ul {
     list-style: none;
     margin-left: 0;
@@ -567,6 +563,12 @@ i {
     text-align: center; }
   .menu3 .recipes {
     margin: 20px 50px; }
+  .menu3 .dish {
+    width: 90%;
+    padding-left: 10px; }
+  .menu3 .price {
+    width: 10%;
+    font-weight: bolder; }
   .menu3 h2 {
     background: linear-gradient(to right, #0033cc, #0099ff);
     -webkit-background-clip: text;
@@ -574,12 +576,7 @@ i {
     font-size: 2rem;
     font-weight: lighter; }
   .menu3 .dish {
-    font-size: 0.9rem;
-    padding-left: 10px;
-    width: 90%; }
-  .menu3 .price {
-    font-weight: bolder;
-    width: 10%; }
+    font-size: 0.9rem; }
   @media only screen and (min-width: 851px) {
     .menu3 .trait {
       width: 100%;
@@ -648,6 +645,8 @@ i {
       max-width: 600px;
       margin-top: 80px;
       margin-bottom: 80px; }
+      .menu3 .recipes {
+        margin: 30px 40px; }
       .menu3 .trait {
         width: 100%;
         display: flex;
@@ -690,7 +689,7 @@ i {
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_2R {
-        background-image: url(/img/traitmenu3_2R.svg);
+        background-image: url(/img/traitmenu3_3R.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
@@ -704,14 +703,12 @@ i {
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_3R {
-        background-image: url(/img/traitmenu3_3R.svg);
+        background-image: url(/img/traitmenu3_2R.svg);
         width: 60%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
-      .menu3 .recipes {
-        margin: 30px 40px; }
       .menu3 .dish {
         font-size: 0.9rem; } }
   @media only screen and (max-width: 599px) {
@@ -723,14 +720,14 @@ i {
       .menu3 .recipes {
         margin: 5px 20px;
         text-align: center; }
-      .menu3 .dish {
-        font-size: 0.8rem; }
-      .menu3 .price {
-        margin-top: 0; }
       .menu3 ul li {
         display: flex;
         flex-direction: column;
         align-items: center; }
+      .menu3 .dish {
+        font-size: 0.8rem; }
+      .menu3 .price {
+        margin-top: 0; }
       .menu3 h3 {
         font-size: 1rem;
         position: relative; }
@@ -758,10 +755,10 @@ i {
   margin-top: 90px;
   margin-bottom: 90px;
   border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25);
   background-color: #fdfffd;
   font-family: "Kaushan Script";
-  line-height: 1.1; }
+  line-height: 1.1;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25); }
   .menu4 ul {
     list-style: none;
     margin-left: 0;
@@ -774,18 +771,19 @@ i {
     text-align: center; }
   .menu4 .recipes {
     margin: 20px 50px; }
+  .menu4 .dish {
+    width: 90%;
+    padding-left: 10px; }
+  .menu4 .price {
+    width: 10%;
+    font-weight: bolder; }
   .menu4 h2 {
     background: linear-gradient(to right, #339933, #ccff66);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2rem; }
   .menu4 .dish {
-    font-size: 1.1rem;
-    padding-left: 10px;
-    width: 90%; }
-  .menu4 .price {
-    font-weight: bolder;
-    width: 10%; }
+    font-size: 1.1rem; }
   @media only screen and (min-width: 851px) {
     .menu4 .trait {
       width: 100%;
@@ -821,6 +819,8 @@ i {
       max-width: 600px;
       margin-top: 80px;
       margin-bottom: 80px; }
+      .menu4 .recipes {
+        margin: 30px 40px; }
       .menu4 .trait {
         width: 100%;
         display: flex;
@@ -850,8 +850,6 @@ i {
         background-position: center; }
         .menu4 .traitdecoratif4_rotation {
           transform: rotate(180deg); }
-      .menu4 .recipes {
-        margin: 30px 40px; }
       .menu4 .dish {
         font-size: 1rem; } }
   @media only screen and (max-width: 599px) {
@@ -863,16 +861,16 @@ i {
       .menu4 .recipes {
         margin: 5px 20px;
         text-align: center; }
+      .menu4 ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
       .menu4 h2 {
         font-size: 1.8rem; }
       .menu4 .dish {
         font-size: 0.9rem; }
       .menu4 .price {
         margin-top: 0; }
-      .menu4 ul li {
-        display: flex;
-        flex-direction: column;
-        align-items: center; }
       .menu4 h3 {
         font-size: 1.2rem;
         position: relative; }
