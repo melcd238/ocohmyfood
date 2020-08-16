@@ -29,7 +29,6 @@
   to {
     opacity: 100%; } }
 
-/*mise en page générale*/
 body {
   margin: 0;
   padding: 0; }
@@ -73,7 +72,7 @@ header {
     header {
       width: 100%; } }
 
-/* mise en page du content de l'index*/
+/* mise en page du contenant de l'index*/
 .contenant {
   display: flex;
   flex-flow: row wrap;
@@ -87,70 +86,6 @@ header {
       flex-direction: column;
       padding-top: 30px;
       padding-bottom: 30px; } }
-
-.menu {
-  text-align: center;
-  width: 200px;
-  height: 270px;
-  margin-top: 60px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25); }
-  .menu a {
-    text-decoration: none;
-    display: block;
-    width: 200px;
-    height: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .menu a:hover {
-      animation: zoom 1s ease-out both; }
-    .menu a .menu_uppercase {
-      text-transform: uppercase; }
-  .menu_note {
-    background-color: #fcdfdb;
-    font-family: "Loved by the King"; }
-    .menu_note--lien {
-      color: #330000;
-      font-size: 1.5rem; }
-    .menu_note .block_lien--note {
-      font-size: 1.5rem;
-      background: linear-gradient(to right, #FF6666 60%, #FF9966);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
-  .menu_chic {
-    background-color: #fff5fe;
-    font-family: "Amita"; }
-    .menu_chic--lien {
-      background: linear-gradient(to right, #cc6600, #9966ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 1.1rem; }
-    .menu_chic .menu_chic--lienmenu {
-      font-size: 1.8rem;
-      color: #cc6600; }
-  .menu_delice {
-    background-color: #f9f9f9;
-    font-family: "Galada"; }
-    .menu_delice--lien {
-      background: linear-gradient(to right, #0033cc, #0099ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 1.3rem; }
-    .menu_delice .menu_delice--lienmenu {
-      font-size: 1.8rem;
-      color: #0099ff; }
-  .menu_palette {
-    background-color: #fdfffd;
-    font-family: "Kaushan Script"; }
-    .menu_palette--lien {
-      background: linear-gradient(to right, #339933, #ccff66);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 1.4rem; }
-    .menu_palette .menu_palette--lienmenu {
-      font-size: 1.8rem;
-      color: #339933; }
 
 /* mise en page du footer*/
 footer {
@@ -225,13 +160,76 @@ footer {
 .pt3 {
   animation: pointmove 0.6s 0.6s infinite alternate; }
 
-/*mise en place des menus*/
-.recipes {
-  margin: 20px 50px; }
-  @media only screen and (max-width: 599px) {
-    .recipes {
-      margin: 5px 20px;
-      text-align: center; } }
+/* mise en place des menus de l'index.html*/
+.menu {
+  text-align: center;
+  width: 200px;
+  height: 270px;
+  margin-top: 60px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.22), 0 10px 40px rgba(0, 0, 0, 0.25); }
+  .menu a {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .menu a:hover {
+      animation: zoom 1s ease-out both; }
+    .menu a .menu_uppercase {
+      text-transform: uppercase; }
+  .menu_note {
+    background-color: #fcdfdb;
+    font-family: "Loved by the King"; }
+    .menu_note--lien {
+      color: #330000;
+      font-size: 1.5rem; }
+    .menu_note .block_lien--note {
+      font-size: 1.5rem;
+      background: linear-gradient(to right, #FF6666 60%, #FF9966);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  .menu_chic {
+    background-color: #fff5fe;
+    font-family: "Amita"; }
+    .menu_chic--lien {
+      background: linear-gradient(to right, #cc6600, #9966ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 1.1rem; }
+    .menu_chic .menu_chic--lienmenu {
+      font-size: 1.8rem;
+      color: #cc6600; }
+  .menu_delice {
+    background-color: #f9f9f9;
+    font-family: "Galada"; }
+    .menu_delice--lien {
+      background: linear-gradient(to right, #0033cc, #0099ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 1.3rem; }
+    .menu_delice .menu_delice--lienmenu {
+      font-size: 1.8rem;
+      color: #0099ff; }
+  .menu_palette {
+    background-color: #fdfffd;
+    font-family: "Kaushan Script"; }
+    .menu_palette--lien {
+      background: linear-gradient(to right, #339933, #ccff66);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 1.4rem; }
+    .menu_palette .menu_palette--lienmenu {
+      font-size: 1.8rem;
+      color: #339933; }
+
+/*mise en place des différents  menus*/
+@media only screen and (max-width: 599px) {
+  .recipes {
+    margin: 5px 20px;
+    text-align: center; } }
 
 /*menu la note enchantée*/
 .menu1 {
@@ -256,6 +254,8 @@ footer {
     text-align: center; }
   .menu1 .headermenu {
     text-align: center; }
+  .menu1 .recipes {
+    margin: 20px 50px; }
   .menu1 h2, .menu1 h3 {
     color: #330000; }
   .menu1 .dish {
@@ -342,6 +342,9 @@ footer {
       margin-top: 70px;
       margin-bottom: 70px;
       animation: opacitymenu 3s; }
+      .menu1 .recipes {
+        margin: 5px 20px;
+        text-align: center; }
       .menu1 .dish {
         font-size: 1rem; }
       .menu1 ul li {
@@ -394,6 +397,8 @@ i {
     text-align: center; }
   .menu2 .headermenu {
     text-align: center; }
+  .menu2 .recipes {
+    margin: 20px 50px; }
   .menu2 h3 {
     font-size: 1rem; }
   .menu2 h2 {
@@ -524,6 +529,9 @@ i {
       margin-top: 70px;
       margin-bottom: 70px;
       animation: opacitymenu 3s; }
+      .menu2 .recipes {
+        margin: 5px 20px;
+        text-align: center; }
       .menu2 h2 {
         font-size: 1.5rem; }
       .menu2 .dish {
@@ -557,6 +565,8 @@ i {
     text-align: center; }
   .menu3 .headermenu {
     text-align: center; }
+  .menu3 .recipes {
+    margin: 20px 50px; }
   .menu3 h2 {
     background: linear-gradient(to right, #0033cc, #0099ff);
     -webkit-background-clip: text;
@@ -710,6 +720,9 @@ i {
       margin-top: 70px;
       margin-bottom: 70px;
       animation: opacitymenu 3s; }
+      .menu3 .recipes {
+        margin: 5px 20px;
+        text-align: center; }
       .menu3 .dish {
         font-size: 0.8rem; }
       .menu3 .price {
@@ -759,6 +772,8 @@ i {
     text-align: center; }
   .menu4 .headermenu {
     text-align: center; }
+  .menu4 .recipes {
+    margin: 20px 50px; }
   .menu4 h2 {
     background: linear-gradient(to right, #339933, #ccff66);
     -webkit-background-clip: text;
@@ -845,6 +860,9 @@ i {
       margin-top: 70px;
       margin-bottom: 70px;
       animation: opacitymenu 3s; }
+      .menu4 .recipes {
+        margin: 5px 20px;
+        text-align: center; }
       .menu4 h2 {
         font-size: 1.8rem; }
       .menu4 .dish {
@@ -874,3 +892,7 @@ i {
         position: absolute;
         right: 5px;
         bottom: 10px; } }
+
+/*mentions légales*/
+.mention {
+  font-family: "Crimson Text"; }

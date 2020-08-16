@@ -31,6 +31,9 @@
     .headermenu{
         text-align: center;
     }
+    .recipes{
+        margin: 20px 50px;
+    }
    
 }
 
@@ -67,6 +70,11 @@
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
+}
+
+@mixin menuindex($color, $font-family){
+    background-color:$color ;
+    font-family: $font-family;
 }
 
 

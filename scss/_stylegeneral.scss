@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+.container{
+        margin: auto;
+        max-width: 80%;
+        min-height: 100vh;
+        border: 2px solid map-get($color, backgroudcolor-header-footer );
+        display: flex;
+        flex-direction: column;
+    @include responsive(medium){
+        max-width: 100%;
+        border: none;
+    }     
+
+    @include responsive(small){
+        max-width: 100%;
+        border: none;
+    }
+   }
+/* Mise en place du Header*/
+header{
+    @include headerfooter;
+    z-index: 1;
+    top: 0;
+    background-color: map-get($color,backgroudcolor-header-footer ) ;
+    justify-content: center;
+    align-items: center;
+     h1{
+        text-align: center;
+        color: map-get($color,color-text-header-footer );
+        font-family: map-get($font-family , family-ohmyfood );
+        font-weight: bolder;
+    }
+    @include responsive(medium){
+        width: 100%;
+    }
+    @include responsive(small){
+        width: 100%;
+    }
+} 
+/* mise en page du contenant de l'index*/
+
+.contenant{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 599px;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @include responsive(small){
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+     
+} 
+/* mise en page du footer*/
+
+footer{
+    @include headerfooter;
+    bottom: 0;
+    background-color: map-get($color, backgroudcolor-header-footer );
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+        a{
+        margin-left: 3%;
+        margin-right: 3%;
+        color: map-get($color,color-text-header-footer );
+        font-family: map-get($font-family , family-ohmyfood );
+        font-size: 1.2rem;
+        text-decoration: none;
+        @include responsive(small){
+            font-size: 0.9rem;
+        }
+            &:hover {
+            animation-name: earthquake ;
+            animation-duration: 0.90s;
+            animation-fill-mode: both; /* indique comment l'annimation doit appliquer les styles à sa cible avant et après son exécution*/
+             }
+            }
+     @include responsive(medium){
+                width: 100%;
+            }       
+     @include responsive(small) {
+        width: 100%;
+            a{
+                font-size: 1rem;
+            }
+       
+     } 
+    
+    
+} 
