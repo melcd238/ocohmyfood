@@ -196,6 +196,7 @@ footer {
     font-family: "Amita"; }
     .menu_chic--lien {
       background: linear-gradient(to right, #cc6600, #9966ff);
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 1.1rem; }
@@ -207,6 +208,7 @@ footer {
     font-family: "Galada"; }
     .menu_delice--lien {
       background: linear-gradient(to right, #0033cc, #0099ff);
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 1.3rem; }
@@ -218,6 +220,7 @@ footer {
     font-family: "Kaushan Script"; }
     .menu_palette--lien {
       background: linear-gradient(to right, #339933, #ccff66);
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 1.4rem; }
@@ -404,6 +407,7 @@ i {
     font-size: 1rem; }
   .menu2 h2 {
     background: linear-gradient(to right, #cc6600, #9966ff);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.8rem; }
@@ -571,6 +575,7 @@ i {
     font-weight: bolder; }
   .menu3 h2 {
     background: linear-gradient(to right, #0033cc, #0099ff);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2rem;
@@ -779,6 +784,7 @@ i {
     font-weight: bolder; }
   .menu4 h2 {
     background: linear-gradient(to right, #339933, #ccff66);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2rem; }

@@ -44,6 +44,7 @@
          @include menuindex (map-get($color, color-chic ),map-get($font-family, family-chic));
                    &--lien{
                      background: $background-chic;
+                     background-clip: text;
                      -webkit-background-clip: text;
                      -webkit-text-fill-color: transparent;
                      font-size: 1.1rem;
@@ -58,6 +59,7 @@
          @include menuindex (map-get($color,color-delice),map-get($font-family,family-delice ));
                    &--lien{
                     background: $background-delice;
+                    background-clip: text;
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                     font-size: 1.3rem;
@@ -72,6 +74,7 @@
          @include menuindex (map-get($color, color-palette ),map-get($font-family,family-palette));
             &--lien{
             background: $background-palette;
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: 1.4rem;
@@ -164,6 +167,7 @@ i{
                    }
                    h2{
         background: $background-chic;
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 1.8rem;}
@@ -260,6 +264,7 @@ i{
     @include menu-style-general(map-get($color,color-delice),map-get($font-family,family-delice )) ;
       h2{
         background: $background-delice;
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 2rem;
@@ -361,6 +366,7 @@ i{
     @include menu-style-general(map-get($color, color-palette ),map-get($font-family,family-palette)) ;
         h2{
             background: $background-palette;
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: 2rem; 
