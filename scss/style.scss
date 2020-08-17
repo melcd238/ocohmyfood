@@ -446,9 +446,14 @@ i{
            .section_mention{
                width: 80%;
                margin: auto;
-                 h4{
+               text-align: justify;
+                 h2{
                      text-align: center;
                      text-transform: uppercase;
+                     font-size: 1.1rem;
+                     border-top: 2px solid map-get($color, backgroudcolor-header-footer); ;
+                     border-bottom:  2px solid map-get($color, backgroudcolor-header-footer);
+                     margin: 40px 60px;
                  }
            }
 
