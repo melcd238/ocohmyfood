@@ -160,6 +160,13 @@ footer {
 .pt3 {
   animation: pointmove 0.6s 0.6s infinite alternate; }
 
+.move2 {
+  height: 10vh; }
+  .move2 .btn a {
+    text-decoration: none;
+    font-family: "Open Sans";
+    color: #fdcb46; }
+
 /* mise en place des menus de l'index.html*/
 .menu {
   text-align: center;
@@ -234,7 +241,7 @@ footer {
   max-width: 900px;
   margin: auto;
   margin-top: 90px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   border-radius: 10px;
   background-color: #fcdfdb;
   font-family: "Loved by the King";
@@ -264,7 +271,7 @@ footer {
     color: #330000; }
   .menu1 .dish {
     font-size: 1.1rem;
-    color: #999999;
+    color: #5b5d5f;
     font-weight: 500; }
   .menu1 .price {
     color: #330000; }
@@ -302,7 +309,7 @@ footer {
     .menu1 {
       max-width: 600px;
       margin-top: 80px;
-      margin-bottom: 80px; }
+      margin-bottom: 50px; }
       .menu1 .recipes {
         margin: 30px 40px; }
       .menu1 .trait {
@@ -338,7 +345,7 @@ footer {
     .menu1 {
       max-width: 360px;
       margin-top: 70px;
-      margin-bottom: 70px;
+      margin-bottom: 30px;
       animation: opacitymenu 3s; }
       .menu1 .recipes {
         margin: 5px 20px;
@@ -355,7 +362,7 @@ footer {
       .menu1 h3::before {
         content: "";
         background: linear-gradient(to right, #FF9966, #FF6666 60%);
-        width: 80px;
+        width: 70px;
         height: 2px;
         position: absolute;
         bottom: 10px;
@@ -363,7 +370,7 @@ footer {
       .menu1 h3::after {
         content: "";
         background: linear-gradient(to right, #FF6666 60%, #FF9966);
-        width: 80px;
+        width: 70px;
         height: 2px;
         position: absolute;
         bottom: 10px;
@@ -379,7 +386,7 @@ i {
   max-width: 900px;
   margin: auto;
   margin-top: 90px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   border-radius: 10px;
   background-color: #fff5fe;
   font-family: "Amita";
@@ -471,7 +478,7 @@ i {
     .menu2 {
       max-width: 600px;
       margin-top: 80px;
-      margin-bottom: 80px; }
+      margin-bottom: 50px; }
       .menu2 .recipes {
         margin: 30px 40px; }
       .menu2 .trait {
@@ -527,7 +534,7 @@ i {
     .menu2 {
       max-width: 360px;
       margin-top: 70px;
-      margin-bottom: 70px;
+      margin-bottom: 30px;
       animation: opacitymenu 3s; }
       .menu2 .recipes {
         margin: 5px 20px;
@@ -549,7 +556,7 @@ i {
   max-width: 900px;
   margin: auto;
   margin-top: 90px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   border-radius: 10px;
   background-color: #f9f9f9;
   font-family: "Galada";
@@ -649,7 +656,7 @@ i {
     .menu3 {
       max-width: 600px;
       margin-top: 80px;
-      margin-bottom: 80px; }
+      margin-bottom: 50px; }
       .menu3 .recipes {
         margin: 30px 40px; }
       .menu3 .trait {
@@ -720,7 +727,7 @@ i {
     .menu3 {
       max-width: 360px;
       margin-top: 70px;
-      margin-bottom: 70px;
+      margin-bottom: 30px;
       animation: opacitymenu 3s; }
       .menu3 .recipes {
         margin: 5px 20px;
@@ -739,7 +746,7 @@ i {
       .menu3 h3::before {
         content: "";
         background: linear-gradient(to right, #0099ff, #0033cc);
-        width: 80px;
+        width: 70px;
         height: 2px;
         position: absolute;
         bottom: 10px;
@@ -747,7 +754,7 @@ i {
       .menu3 h3::after {
         content: "";
         background: linear-gradient(to right, #0033cc, #0099ff);
-        width: 80px;
+        width: 70px;
         height: 2px;
         position: absolute;
         bottom: 10px;
@@ -758,7 +765,7 @@ i {
   max-width: 900px;
   margin: auto;
   margin-top: 90px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   border-radius: 10px;
   background-color: #fdfffd;
   font-family: "Kaushan Script";
@@ -824,7 +831,7 @@ i {
     .menu4 {
       max-width: 600px;
       margin-top: 80px;
-      margin-bottom: 80px; }
+      margin-bottom: 50px; }
       .menu4 .recipes {
         margin: 30px 40px; }
       .menu4 .trait {
@@ -862,7 +869,7 @@ i {
     .menu4 {
       max-width: 360px;
       margin-top: 70px;
-      margin-bottom: 70px;
+      margin-bottom: 30px;
       animation: opacitymenu 3s; }
       .menu4 .recipes {
         margin: 5px 20px;
@@ -883,7 +890,7 @@ i {
       .menu4 h3::before {
         content: "";
         background: linear-gradient(to right, #ccff66, #339933);
-        width: 80px;
+        width: 70px;
         height: 2px;
         position: absolute;
         bottom: 10px;
@@ -891,7 +898,7 @@ i {
       .menu4 h3::after {
         content: "";
         background: linear-gradient(to right, #339933, #ccff66);
-        width: 80px;
+        width: 70px;
         height: 2px;
         position: absolute;
         bottom: 10px;

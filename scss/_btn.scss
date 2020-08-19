@@ -37,3 +37,13 @@
 .pt3{
     animation: pointmove 0.6s 0.6s infinite alternate;
 }
+.move2{
+    height: 10vh;
+      
+
+.btn a {
+    text-decoration: none;
+    font-family: map-get($font-family , family-ohmyfood );
+    color: map-get($color , color-text-header-footer);
+}
+}

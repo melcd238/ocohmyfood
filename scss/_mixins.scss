@@ -14,7 +14,7 @@
     max-width: 900px;
     margin: auto;
     margin-top: 90px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     border-radius: 10px;
     background-color: $color;
     font-family: $font-family;
@@ -36,6 +36,7 @@
     }
     .recipes{
         margin: 20px 50px;
+        
     }
     .dish{
         width: 90%;
@@ -90,7 +91,7 @@
 @mixin mediumresponsive{
         max-width: 600px;
         margin-top: 80px;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
         .recipes{
             margin:30px 40px;
         }
@@ -98,7 +99,7 @@
 @mixin smallresponsive {
         max-width: 360px;
         margin-top: 70px;
-        margin-bottom: 70px;
+        margin-bottom: 30px;
         animation: opacitymenu 3s;
         .recipes{
             margin: 5px 20px;
@@ -114,7 +115,7 @@
 @mixin traitmenu_smallresponsive ($background) {
             content: "";
             background:$background ;
-            width: 80px;
+            width: 70px;
             height: 2px;
             position: absolute;
             bottom: 10px;
