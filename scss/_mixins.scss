@@ -47,7 +47,7 @@
         font-weight: bolder;
     }
     .trait{
-        height: 25px;
+        height: 30px;
     }
    
 }
@@ -57,17 +57,19 @@
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
     h3{
         position: relative;
         display: inline;
+        box-sizing: content-box;
     }
     h3::after{
         content: "";
         background: $background;
         position: absolute;
+        box-sizing: content-box;
         bottom: -2px;
         left:0;
         width: 0%;
@@ -80,7 +82,7 @@
     }
 }
 @mixin traitdecorationmenu  {
-            width: 60%;
+            width: 25%;
             height: 5px;
             background-repeat: no-repeat;
             background-size: contain;
@@ -100,7 +102,7 @@
         }
         h3{
             margin: 18px 30px;
-            padding: 18px 30px ;
+            
         }
 }
 @mixin smallresponsive {

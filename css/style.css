@@ -268,7 +268,7 @@ footer {
     width: 10%;
     font-weight: bolder; }
   .menu1 .trait {
-    height: 25px; }
+    height: 30px; }
   .menu1 h2, .menu1 h3 {
     color: #330000; }
   .menu1 .dish {
@@ -280,22 +280,21 @@ footer {
   .menu1 .finmenu1 {
     text-align: center; }
   @media only screen and (min-width: 851px) {
-    .menu1 h3 {
-      margin: 18px 30px;
-      padding: 18px 30px; }
     .menu1 .trait {
       width: 100%;
       display: flex;
       flex-flow: row nowrap;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center; }
     .menu1 h3 {
       position: relative;
-      display: inline; }
+      display: inline;
+      box-sizing: content-box; }
     .menu1 h3::after {
       content: "";
       background: linear-gradient(to right, #FF6666 60%, #FF9966);
       position: absolute;
+      box-sizing: content-box;
       bottom: -2px;
       left: 0;
       width: 0%;
@@ -305,7 +304,7 @@ footer {
       width: 100%; }
     .menu1 .traitdecoratif {
       background-image: url("../img/traitmenu1.svg");
-      width: 60%;
+      width: 25%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
@@ -318,21 +317,22 @@ footer {
       .menu1 .recipes {
         margin: 20px 30px; }
       .menu1 h3 {
-        margin: 18px 30px;
-        padding: 18px 30px; }
+        margin: 18px 30px; }
       .menu1 .trait {
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center; }
       .menu1 h3 {
         position: relative;
-        display: inline; }
+        display: inline;
+        box-sizing: content-box; }
       .menu1 h3::after {
         content: "";
         background: linear-gradient(to right, #FF6666 60%, #FF9966);
         position: absolute;
+        box-sizing: content-box;
         bottom: -2px;
         left: 0;
         width: 0%;
@@ -342,7 +342,7 @@ footer {
         width: 100%; }
       .menu1 .traitdecoratif {
         background-image: url("../img/traitmenu1.svg");
-        width: 60%;
+        width: 25%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
@@ -421,7 +421,7 @@ i {
     width: 10%;
     font-weight: bolder; }
   .menu2 .trait {
-    height: 25px; }
+    height: 30px; }
   .menu2 h3 {
     font-size: 1rem; }
   .menu2 h2 {
@@ -439,22 +439,21 @@ i {
   .menu2 .dish {
     font-size: 0.9rem; }
   @media only screen and (min-width: 851px) {
-    .menu2 h3 {
-      margin: 18px 30px;
-      padding: 18px 30px; }
     .menu2 .trait {
       width: 100%;
       display: flex;
       flex-flow: row nowrap;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center; }
     .menu2 h3 {
       position: relative;
-      display: inline; }
+      display: inline;
+      box-sizing: content-box; }
     .menu2 h3::after {
       content: "";
       background: linear-gradient(to right, #cc6600, #9966ff);
       position: absolute;
+      box-sizing: content-box;
       bottom: -2px;
       left: 0;
       width: 0%;
@@ -464,7 +463,7 @@ i {
       width: 100%; }
     .menu2 .traitdecoratif {
       background-image: url("../img/traitmenu2_1.svg");
-      width: 60%;
+      width: 25%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
@@ -473,7 +472,7 @@ i {
         transform: rotate(180deg); }
     .menu2 .traitdecoratif2 {
       background-image: url("../img/traitmenu2_2.svg");
-      width: 60%;
+      width: 25%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
@@ -482,7 +481,7 @@ i {
         transform: rotate(180deg); }
     .menu2 .traitdecoratif3 {
       background-image: url("../img/traitmenu2_3.svg");
-      width: 60%;
+      width: 25%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
@@ -497,21 +496,22 @@ i {
       .menu2 .recipes {
         margin: 20px 30px; }
       .menu2 h3 {
-        margin: 18px 30px;
-        padding: 18px 30px; }
+        margin: 18px 30px; }
       .menu2 .trait {
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center; }
       .menu2 h3 {
         position: relative;
-        display: inline; }
+        display: inline;
+        box-sizing: content-box; }
       .menu2 h3::after {
         content: "";
         background: linear-gradient(to right, #cc6600, #9966ff);
         position: absolute;
+        box-sizing: content-box;
         bottom: -2px;
         left: 0;
         width: 0%;
@@ -521,7 +521,7 @@ i {
         width: 100%; }
       .menu2 .traitdecoratif {
         background-image: url("../img/traitmenu2_1.svg");
-        width: 60%;
+        width: 25%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
@@ -530,7 +530,7 @@ i {
           transform: rotate(180deg); }
       .menu2 .traitdecoratif2 {
         background-image: url("../img/traitmenu2_2.svg");
-        width: 60%;
+        width: 25%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
@@ -539,7 +539,7 @@ i {
           transform: rotate(180deg); }
       .menu2 .traitdecoratif3 {
         background-image: url("../img/traitmenu2_3.svg");
-        width: 60%;
+        width: 25%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
@@ -601,7 +601,7 @@ i {
     width: 10%;
     font-weight: bolder; }
   .menu3 .trait {
-    height: 25px; }
+    height: 30px; }
   .menu3 h2 {
     background: linear-gradient(to right, #0033cc, #0099ff);
     background-clip: text;
@@ -612,22 +612,21 @@ i {
   .menu3 .dish {
     font-size: 0.9rem; }
   @media only screen and (min-width: 851px) {
-    .menu3 h3 {
-      margin: 18px 30px;
-      padding: 18px 30px; }
     .menu3 .trait {
       width: 100%;
       display: flex;
       flex-flow: row nowrap;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center; }
     .menu3 h3 {
       position: relative;
-      display: inline; }
+      display: inline;
+      box-sizing: content-box; }
     .menu3 h3::after {
       content: "";
       background: linear-gradient(to right, #0033cc, #0099ff);
       position: absolute;
+      box-sizing: content-box;
       bottom: -2px;
       left: 0;
       width: 0%;
@@ -637,42 +636,42 @@ i {
       width: 100%; }
     .menu3 .traitdecoratif3_1L {
       background-image: url("../img/traitmenu3_1L.svg");
-      width: 60%;
+      width: 25%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
     .menu3 .traitdecoratif3_1R {
       background-image: url("../img/traitmenu3_1R.svg");
-      width: 60%;
+      width: 25%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
     .menu3 .traitdecoratif3_2L {
       background-image: url("../img/traitmenu3_2L.svg");
-      width: 60%;
+      width: 25%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
     .menu3 .traitdecoratif3_2R {
       background-image: url("../img/traitmenu3_2R.svg");
-      width: 60%;
+      width: 25%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
     .menu3 .traitdecoratif3_3L {
       background-image: url("../img/traitmenu3_3L.svg");
-      width: 60%;
+      width: 25%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
     .menu3 .traitdecoratif3_3R {
       background-image: url("../img/traitmenu3_3R.svg");
-      width: 60%;
+      width: 25%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
@@ -685,21 +684,22 @@ i {
       .menu3 .recipes {
         margin: 20px 30px; }
       .menu3 h3 {
-        margin: 18px 30px;
-        padding: 18px 30px; }
+        margin: 18px 30px; }
       .menu3 .trait {
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center; }
       .menu3 h3 {
         position: relative;
-        display: inline; }
+        display: inline;
+        box-sizing: content-box; }
       .menu3 h3::after {
         content: "";
         background: linear-gradient(to right, #0033cc, #0099ff);
         position: absolute;
+        box-sizing: content-box;
         bottom: -2px;
         left: 0;
         width: 0%;
@@ -709,48 +709,50 @@ i {
         width: 100%; }
       .menu3 .traitdecoratif3_1L {
         background-image: url("../img/traitmenu3_1L.svg");
-        width: 60%;
+        width: 25%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_1R {
         background-image: url("../img/traitmenu3_1R.svg");
-        width: 60%;
+        width: 25%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_2L {
         background-image: url("../img/traitmenu3_2L.svg");
-        width: 60%;
+        width: 25%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_2R {
         background-image: url("../img/traitmenu3_3R.svg");
-        width: 60%;
+        width: 25%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_3L {
         background-image: url("../img/traitmenu3_3L.svg");
-        width: 60%;
+        width: 25%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
       .menu3 .traitdecoratif3_3R {
         background-image: url("../img/traitmenu3_2R.svg");
-        width: 60%;
+        width: 25%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
       .menu3 .dish {
-        font-size: 0.9rem; } }
+        font-size: 0.9rem; }
+      .menu3 h3 {
+        font-size: 1rem; } }
   @media only screen and (max-width: 599px) {
     .menu3 {
       max-width: 360px;
@@ -820,7 +822,7 @@ i {
     width: 10%;
     font-weight: bolder; }
   .menu4 .trait {
-    height: 25px; }
+    height: 30px; }
   .menu4 h2 {
     background: linear-gradient(to right, #339933, #ccff66);
     background-clip: text;
@@ -830,22 +832,21 @@ i {
   .menu4 .dish {
     font-size: 1.1rem; }
   @media only screen and (min-width: 851px) {
-    .menu4 h3 {
-      margin: 18px 30px;
-      padding: 18px 30px; }
     .menu4 .trait {
       width: 100%;
       display: flex;
       flex-flow: row nowrap;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center; }
     .menu4 h3 {
       position: relative;
-      display: inline; }
+      display: inline;
+      box-sizing: content-box; }
     .menu4 h3::after {
       content: "";
       background: linear-gradient(to right, #339933, #ccff66);
       position: absolute;
+      box-sizing: content-box;
       bottom: -2px;
       left: 0;
       width: 0%;
@@ -855,7 +856,7 @@ i {
       width: 100%; }
     .menu4 .traitdecoratif4 {
       background-image: url("../img/traitmenu4.svg");
-      width: 60%;
+      width: 25%;
       height: 5px;
       background-repeat: no-repeat;
       background-size: contain;
@@ -870,21 +871,22 @@ i {
       .menu4 .recipes {
         margin: 20px 30px; }
       .menu4 h3 {
-        margin: 18px 30px;
-        padding: 18px 30px; }
+        margin: 18px 30px; }
       .menu4 .trait {
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center; }
       .menu4 h3 {
         position: relative;
-        display: inline; }
+        display: inline;
+        box-sizing: content-box; }
       .menu4 h3::after {
         content: "";
         background: linear-gradient(to right, #339933, #ccff66);
         position: absolute;
+        box-sizing: content-box;
         bottom: -2px;
         left: 0;
         width: 0%;
@@ -894,7 +896,7 @@ i {
         width: 100%; }
       .menu4 .traitdecoratif4 {
         background-image: url("../img/traitmenu4.svg");
-        width: 60%;
+        width: 25%;
         height: 5px;
         background-repeat: no-repeat;
         background-size: contain;
