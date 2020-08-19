@@ -113,7 +113,10 @@
        
         
     @include responsive(large) {
-        
+        h3{
+            margin: 18px 30px;
+            padding: 18px 30px ;
+        }
         @include traitsoush3($background-note);
         .traitdecoratif{
             background-image: url("../img/traitmenu1.svg");
@@ -187,6 +190,10 @@ i{
                 }
                 
     @include responsive(large) {
+        h3{
+            margin: 18px 30px;
+            padding: 18px 30px ;
+        }
              @include traitsoush3($background-chic);
              .traitdecoratif{
                 background-image: url("../img/traitmenu2_1.svg");
@@ -275,6 +282,10 @@ i{
         }
        
         @include responsive(large) {
+            h3{
+                margin: 18px 30px;
+                padding: 18px 30px ;
+            }
             @include traitsoush3($background-delice);
             .traitdecoratif3_1L{
                 background-image: url("../img/traitmenu3_1L.svg");
@@ -378,6 +389,10 @@ i{
         }
        
         @include responsive(large) {
+            h3{
+                margin: 18px 30px;
+                padding: 18px 30px ;
+            }
             @include traitsoush3($background-palette);
             .traitdecoratif4{
                 background-image: url("../img/traitmenu4.svg");

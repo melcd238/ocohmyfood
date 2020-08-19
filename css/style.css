@@ -260,13 +260,15 @@ footer {
   .menu1 .headermenu {
     text-align: center; }
   .menu1 .recipes {
-    margin: 20px 50px; }
+    margin: 20px 30px; }
   .menu1 .dish {
     width: 90%;
     padding-left: 10px; }
   .menu1 .price {
     width: 10%;
     font-weight: bolder; }
+  .menu1 .trait {
+    height: 25px; }
   .menu1 h2, .menu1 h3 {
     color: #330000; }
   .menu1 .dish {
@@ -278,6 +280,9 @@ footer {
   .menu1 .finmenu1 {
     text-align: center; }
   @media only screen and (min-width: 851px) {
+    .menu1 h3 {
+      margin: 18px 30px;
+      padding: 18px 30px; }
     .menu1 .trait {
       width: 100%;
       display: flex;
@@ -311,7 +316,10 @@ footer {
       margin-top: 80px;
       margin-bottom: 50px; }
       .menu1 .recipes {
-        margin: 30px 40px; }
+        margin: 20px 30px; }
+      .menu1 h3 {
+        margin: 18px 30px;
+        padding: 18px 30px; }
       .menu1 .trait {
         width: 100%;
         display: flex;
@@ -348,12 +356,14 @@ footer {
       margin-bottom: 30px;
       animation: opacitymenu 3s; }
       .menu1 .recipes {
-        margin: 5px 20px;
+        margin: 0px 10px;
         text-align: center; }
       .menu1 ul li {
         display: flex;
         flex-direction: column;
         align-items: center; }
+      .menu1 h3 {
+        margin: 5px 0px; }
       .menu1 .dish {
         font-size: 1rem; }
       .menu1 h3 {
@@ -403,13 +413,15 @@ i {
   .menu2 .headermenu {
     text-align: center; }
   .menu2 .recipes {
-    margin: 20px 50px; }
+    margin: 20px 30px; }
   .menu2 .dish {
     width: 90%;
     padding-left: 10px; }
   .menu2 .price {
     width: 10%;
     font-weight: bolder; }
+  .menu2 .trait {
+    height: 25px; }
   .menu2 h3 {
     font-size: 1rem; }
   .menu2 h2 {
@@ -427,6 +439,9 @@ i {
   .menu2 .dish {
     font-size: 0.9rem; }
   @media only screen and (min-width: 851px) {
+    .menu2 h3 {
+      margin: 18px 30px;
+      padding: 18px 30px; }
     .menu2 .trait {
       width: 100%;
       display: flex;
@@ -480,7 +495,10 @@ i {
       margin-top: 80px;
       margin-bottom: 50px; }
       .menu2 .recipes {
-        margin: 30px 40px; }
+        margin: 20px 30px; }
+      .menu2 h3 {
+        margin: 18px 30px;
+        padding: 18px 30px; }
       .menu2 .trait {
         width: 100%;
         display: flex;
@@ -537,12 +555,14 @@ i {
       margin-bottom: 30px;
       animation: opacitymenu 3s; }
       .menu2 .recipes {
-        margin: 5px 20px;
+        margin: 0px 10px;
         text-align: center; }
       .menu2 ul li {
         display: flex;
         flex-direction: column;
         align-items: center; }
+      .menu2 h3 {
+        margin: 5px 0px; }
       .menu2 h2 {
         font-size: 1.5rem; }
       .menu2 .dish {
@@ -573,13 +593,15 @@ i {
   .menu3 .headermenu {
     text-align: center; }
   .menu3 .recipes {
-    margin: 20px 50px; }
+    margin: 20px 30px; }
   .menu3 .dish {
     width: 90%;
     padding-left: 10px; }
   .menu3 .price {
     width: 10%;
     font-weight: bolder; }
+  .menu3 .trait {
+    height: 25px; }
   .menu3 h2 {
     background: linear-gradient(to right, #0033cc, #0099ff);
     background-clip: text;
@@ -590,6 +612,9 @@ i {
   .menu3 .dish {
     font-size: 0.9rem; }
   @media only screen and (min-width: 851px) {
+    .menu3 h3 {
+      margin: 18px 30px;
+      padding: 18px 30px; }
     .menu3 .trait {
       width: 100%;
       display: flex;
@@ -658,7 +683,10 @@ i {
       margin-top: 80px;
       margin-bottom: 50px; }
       .menu3 .recipes {
-        margin: 30px 40px; }
+        margin: 20px 30px; }
+      .menu3 h3 {
+        margin: 18px 30px;
+        padding: 18px 30px; }
       .menu3 .trait {
         width: 100%;
         display: flex;
@@ -730,12 +758,14 @@ i {
       margin-bottom: 30px;
       animation: opacitymenu 3s; }
       .menu3 .recipes {
-        margin: 5px 20px;
+        margin: 0px 10px;
         text-align: center; }
       .menu3 ul li {
         display: flex;
         flex-direction: column;
         align-items: center; }
+      .menu3 h3 {
+        margin: 5px 0px; }
       .menu3 .dish {
         font-size: 0.8rem; }
       .menu3 .price {
@@ -782,13 +812,15 @@ i {
   .menu4 .headermenu {
     text-align: center; }
   .menu4 .recipes {
-    margin: 20px 50px; }
+    margin: 20px 30px; }
   .menu4 .dish {
     width: 90%;
     padding-left: 10px; }
   .menu4 .price {
     width: 10%;
     font-weight: bolder; }
+  .menu4 .trait {
+    height: 25px; }
   .menu4 h2 {
     background: linear-gradient(to right, #339933, #ccff66);
     background-clip: text;
@@ -798,6 +830,9 @@ i {
   .menu4 .dish {
     font-size: 1.1rem; }
   @media only screen and (min-width: 851px) {
+    .menu4 h3 {
+      margin: 18px 30px;
+      padding: 18px 30px; }
     .menu4 .trait {
       width: 100%;
       display: flex;
@@ -833,7 +868,10 @@ i {
       margin-top: 80px;
       margin-bottom: 50px; }
       .menu4 .recipes {
-        margin: 30px 40px; }
+        margin: 20px 30px; }
+      .menu4 h3 {
+        margin: 18px 30px;
+        padding: 18px 30px; }
       .menu4 .trait {
         width: 100%;
         display: flex;
@@ -872,12 +910,14 @@ i {
       margin-bottom: 30px;
       animation: opacitymenu 3s; }
       .menu4 .recipes {
-        margin: 5px 20px;
+        margin: 0px 10px;
         text-align: center; }
       .menu4 ul li {
         display: flex;
         flex-direction: column;
         align-items: center; }
+      .menu4 h3 {
+        margin: 5px 0px; }
       .menu4 h2 {
         font-size: 1.8rem; }
       .menu4 .dish {
