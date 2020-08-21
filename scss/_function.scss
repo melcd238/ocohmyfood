@@ -1,0 +1,13 @@
+@function colors($key){
+    @if not map-has-key($color, $key ){
+        @warn "key `#{$key}`not found in $color map.";
+    }
+    @return map-get($color, $key); 
+}
+
+@function fontfamily($key){
+    @if not map-has-key($font-family, $key ){
+        @warn "key `#{$key}`not found in $font-family map,";
+    }
+    @return map-get($font-family , $key);
+}

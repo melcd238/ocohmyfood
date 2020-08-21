@@ -4,6 +4,7 @@
 @import "responsive";
 @import "stylegeneral";
 @import "btn";
+@import "function";
 
 
 /* mise en place des menus de l'index.html*/
@@ -32,7 +33,7 @@
      &_note{
          @include menuindex (map-get($color, color-note ),map-get($font-family,family-note ));
                 &--lien{
-                   color:map-get($color,color-menu-note);
+                   color: colors(color-menu-note );
                    font-size: 1.5rem;
                     }
                & .block_lien--note {
@@ -51,7 +52,7 @@
                  }
                  & .menu_chic--lienmenu{
                      font-size: 1.8rem;
-                     color: map-get($color ,color-menu2-entree);
+                     color: colors(color-menu2-entree);
                  }
     
      }
@@ -66,7 +67,7 @@
                   }
                   & .menu_delice--lienmenu{
                     font-size: 1.8rem;
-                    color: map-get($color , color-menu-delice);
+                    color: colors(color-menu-delice);
                   }
        
      }
@@ -81,7 +82,7 @@
           }
           & .menu_palette--lienmenu{
             font-size: 1.8rem;
-            color: map-get($color , color-menu-palette);
+            color: colors(color-menu-palette );
           }
        
      }
@@ -96,16 +97,16 @@
     display: flex;
     flex-direction: column;
              h2, h3{
-                color: map-get($color , color-menu-note );
+                color:colors(color-menu-note );
              }
              
           .dish{
              font-size: 1.1rem;
-             color: map-get($color , color-menu-note-dish);
+             color: colors(color-menu-note-dish);
              font-weight: 500;
              }
          .price{
-             color: map-get($color , color-menu-note );
+             color: colors(color-menu-note );
              }
          .finmenu1{
              text-align: center;
@@ -172,13 +173,13 @@ i{
         -webkit-text-fill-color: transparent;
         font-size: 1.8rem;}
                    .menu2_entree{
-                    color: map-get($color , color-menu2-entree ) ;
+                    color: colors(color-menu2-entree ) ;
                    }
                    .menu2_plat{
-                    color: map-get($color , color-menu2-plat ) ;
+                    color: colors(color-menu2-plat ) ;
                    }
                    .menu2_dessert{
-                    color: map-get($color , color-menu2-dessert ) ;  
+                    color: colors(color-menu2-dessert ) ;  
                    }
                    .dish{
                     font-size: 0.9rem;
@@ -442,7 +443,7 @@ i{
 /*mentions légales*/
 
 .mention{
-     font-family: map-get($font-family , family-mentionslegales );
+     font-family:fontfamily(family-mentionslegales );
      max-width: 900px;
      margin: auto;
      margin-top: 90px;
