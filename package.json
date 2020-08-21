@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss -o css"
+    "sass": "node-sass -w scss -o css",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "dependencies": {
-    "node-sass": "^4.14.1"
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^4.14.1",
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.1"
   }
 }
