@@ -63,6 +63,8 @@ header{
 
 footer{
     @include headerfooter;
+    perspective: 800px;
+    perspective-origin: center;
     bottom: 0;
     background-color: map-get($color, backgroudcolor-header-footer );
     flex-direction: row;
@@ -80,8 +82,9 @@ footer{
         }
             &:hover {
             animation-name: earthquake ;
-            animation-duration: 0.90s;
-            animation-fill-mode: both; /* indique comment l'annimation doit appliquer les styles à sa cible avant et après son exécution*/
+            animation-timing-function: linear;
+            animation-duration: 0.9s;
+            animation-fill-mode: backwards; 
              }
             }
      @include responsive(medium){
